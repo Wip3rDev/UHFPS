@@ -1,0 +1,1102 @@
+{
+  "id": "3de0b335a8a84f51b107495fd77dd614",
+  "playerData": {
+    "position": {
+      "x": 14.808,
+      "y": -0.9605997,
+      "z": 45.535
+    },
+    "rotation": {
+      "x": 259.7,
+      "y": -2.9
+    },
+    "localData": {
+      "health": 100,
+      "selectedItem": -1,
+      "playerItems": {
+        "playerItem_0": {
+          "recordingTime": 0,
+          "batteryEnergy": 100.0,
+          "nightVision": false
+        },
+        "playerItem_1": {},
+        "playerItem_2": {},
+        "playerItem_3": {
+          "flashlightAttached": false
+        },
+        "playerItem_4": {
+          "batteryEnergy": 320.0
+        },
+        "playerItem_5": {
+          "currentFuel": 60.0
+        },
+        "playerItem_6": {},
+        "playerItem_7": {},
+        "playerItem_8": {
+          "baseTemp": 23.0
+        },
+        "playerItem_9": {}
+      }
+    },
+    "globalData": {
+      "inventory": {
+        "expanded": 0,
+        "items": {
+          "item_0": {
+            "item": "ba53a6ad76bb4513ba434a3b7542345a",
+            "quantity": 1,
+            "orientation": 0,
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "customData": {}
+          }
+        },
+        "shortcuts": {
+          "shortcut_0": "{}",
+          "shortcut_1": "{}",
+          "shortcut_2": "{}",
+          "shortcut_3": "{}"
+        }
+      },
+      "objectives": {}
+    }
+  },
+  "worldState": {
+    "worldSaveables": {
+      "InteractableItem.a05cac88258f25046b801a6f345214dc": {
+        "position": {
+          "x": 0.377989,
+          "y": -0.434409,
+          "z": 3.9E-05
+        },
+        "rotation": {
+          "x": 315.0162,
+          "y": 268.07312,
+          "z": 1.36238229
+        },
+        "quantity": 1,
+        "enabledState": false,
+        "hotspotEnabled": false,
+        "customData": {}
+      },
+      "DynamicObject.3c98fcd692ee0794dbbcda599b7a89cf": {
+        "localPosition": {
+          "x": 0.000931,
+          "y": 0.0,
+          "z": 0.001495583
+        },
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DynamicObject.c0dcbbaeac1c7064386759c21d491224": {
+        "rotation": {
+          "x": 270.0,
+          "y": 179.999985,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "ItemSpawner.a556787445f66264cbd83e6d0588c097": {
+        "isInitialized": false,
+        "activatedIndices": []
+      },
+      "ObjectiveTrigger.597c87f33f7f3904e996ec6fc29485eb": {
+        "isTriggered": false
+      },
+      "InteractableItem.998ac0b68005a874795d6b6114d46c0f": {
+        "position": {
+          "x": 0.379001,
+          "y": 0.008349,
+          "z": 8.3E-05
+        },
+        "rotation": {
+          "x": 25.8999729,
+          "y": 93.9230042,
+          "z": 177.227
+        },
+        "quantity": 1,
+        "enabledState": false,
+        "hotspotEnabled": false,
+        "customData": {}
+      },
+      "DynamicObject.bdad6312c0dc3fc409454ba54fc367d8": {
+        "rotation": {
+          "x": 270.019775,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "ObjectiveTrigger.5afed353684d6fd4887240288bd2ab52": {
+        "isTriggered": false
+      },
+      "ObjectiveTrigger.1596d47ab610df54b9b92fe0c91c06c0": {
+        "isTriggered": false
+      },
+      "DynamicObject.789060289fc91d24499a60fd71f76b38": {
+        "rotation": {
+          "x": 0.0,
+          "y": 90.0,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "InteractableItem.5a8d122fb83103c44b6fdb7821a37571": {
+        "position": {
+          "x": 0.31764,
+          "y": 0.008504,
+          "z": 0.000117
+        },
+        "rotation": {
+          "x": 304.37,
+          "y": 93.92301,
+          "z": 177.227
+        },
+        "quantity": 1,
+        "enabledState": false,
+        "hotspotEnabled": false,
+        "customData": {}
+      },
+      "DynamicObject.ac459f589730a9b45b04ab945119cc9c": {
+        "rotation": {
+          "x": -2.50447852E-06,
+          "y": 274.52002,
+          "z": -8.142219E-13
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DynamicObject.822ed0938f5b3dd42b70db19d542fe4d": {
+        "rotation": {
+          "x": 270.019775,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DynamicObject.f9ba43a16eb0758469b5c254c0576e91": {
+        "localPosition": {
+          "x": 0.000931,
+          "y": -1.19209287E-09,
+          "z": 0.001495583
+        },
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DynamicObject.bc1ed66b7cbf4df4a8bfa85b8ec6ea50": {
+        "rotation": {
+          "x": 270.0,
+          "y": 179.999985,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "InteractableItem.b45e4b95e12d8e743b3437cc233edccd": {
+        "position": {
+          "x": 0.287068,
+          "y": -0.179948,
+          "z": -0.004802
+        },
+        "rotation": {
+          "x": 315.0536,
+          "y": 266.4966,
+          "z": 2.4765017
+        },
+        "quantity": 1,
+        "enabledState": false,
+        "hotspotEnabled": false,
+        "customData": {}
+      },
+      "DynamicObject.5a960822bfed2524b9945f5bdf00cf7e": {
+        "rotation": {
+          "x": 270.0,
+          "y": 270.0,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "InteractableItem.ad67b2c4f4549f84f82a7f9b53e633ad": {
+        "position": {
+          "x": -0.0175,
+          "y": 1.1473999,
+          "z": -0.3976
+        },
+        "rotation": {
+          "x": 1.02452841E-05,
+          "y": 185.062,
+          "z": 89.9999847
+        },
+        "quantity": 1,
+        "enabledState": true,
+        "hotspotEnabled": false,
+        "customData": {}
+      },
+      "ObjectiveTrigger.05818bf2eab3c094bb73933e989fd8d2": {
+        "isTriggered": false
+      },
+      "DialogueTrigger.ff07a9cc1d67e6840a8bfe16a87112b0": {
+        "IsCompleted": false
+      },
+      "FuseboxPuzzle.3274723411338a74e91e85b5f1da9370": {
+        "fuse_0": false,
+        "fuse_1": true,
+        "fuse_2": false,
+        "fuse_3": false
+      },
+      "DynamicObject.24ec384408b102a45a77ef944c0ce1d8": {
+        "localPosition": {
+          "x": 0.000931,
+          "y": 0.0,
+          "z": 0.001495583
+        },
+        "isOpened": false,
+        "isLocked": false
+      },
+      "InteractableItem.0bdad95462db16040af6646bbc15ef5f": {
+        "position": {
+          "x": 0.1201,
+          "y": 1.1473999,
+          "z": -0.3924
+        },
+        "rotation": {
+          "x": 9.90499848E-06,
+          "y": 165.19165,
+          "z": 180.0
+        },
+        "quantity": 1,
+        "enabledState": true,
+        "hotspotEnabled": false,
+        "customData": {}
+      },
+      "InteractableItem.68bb1870cd5cb7b4083bff312da1ff3a": {
+        "position": {
+          "x": 0.00979,
+          "y": -0.00109,
+          "z": -0.0146
+        },
+        "rotation": {
+          "x": 8.809231,
+          "y": 141.500885,
+          "z": 187.22464
+        },
+        "quantity": 7,
+        "enabledState": true,
+        "hotspotEnabled": false,
+        "customData": {}
+      },
+      "DialogueTrigger.3aaeb003bd3098140aff3c5b9f7c8557": {
+        "IsCompleted": false
+      },
+      "DynamicObject.23e67ced152a8a045917d91e8d24e812": {
+        "localPosition": {
+          "x": 0.000931,
+          "y": 0.0,
+          "z": 0.001495583
+        },
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DynamicObject.1d6d1fd551ec27c498503ee9dea0476d": {
+        "localPosition": {
+          "x": 0.000931,
+          "y": 0.0,
+          "z": 0.001495583
+        },
+        "isOpened": false,
+        "isLocked": false
+      },
+      "ObjectiveTrigger.16da0ad0da93633418589cbe6d009b0a": {
+        "isTriggered": false
+      },
+      "DynamicObject.be03109eff96ddd44b83753973fd03ac": {
+        "localPosition": {
+          "x": 0.000931,
+          "y": 0.0,
+          "z": 0.001495583
+        },
+        "isOpened": false,
+        "isLocked": false
+      },
+      "InteractableItem.871db398ecfc067479546363a13ceb0e": {
+        "position": {
+          "x": 0.279615,
+          "y": -0.206363,
+          "z": 3.8E-05
+        },
+        "rotation": {
+          "x": 4.420001,
+          "y": 266.497,
+          "z": 2.47699881
+        },
+        "quantity": 1,
+        "enabledState": false,
+        "hotspotEnabled": false,
+        "customData": {}
+      },
+      "InteractableItem.a32aabaae4622404b9ca55343bddd7b3": {
+        "position": {
+          "x": 0.28284,
+          "y": -0.434512,
+          "z": 0.000106
+        },
+        "rotation": {
+          "x": 44.700016,
+          "y": 268.073,
+          "z": 1.36200619
+        },
+        "quantity": 1,
+        "enabledState": false,
+        "hotspotEnabled": false,
+        "customData": {}
+      },
+      "InteractableItem.d8196615ed2656b4f972eb72980d27f7": {
+        "position": {
+          "x": -69.021,
+          "y": 0.997,
+          "z": 72.287
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "quantity": 1,
+        "enabledState": true,
+        "hotspotEnabled": true,
+        "customData": {}
+      },
+      "DynamicObject.2b5033d2b6cf5e049a34e5e420a15d0f": {
+        "localPosition": {
+          "x": 0.000931,
+          "y": 0.0,
+          "z": 0.001495583
+        },
+        "isOpened": false,
+        "isLocked": false
+      },
+      "InteractableItem.797781fe9b11b0c41973f3f8f2185d99": {
+        "position": {
+          "x": 0.29984,
+          "y": 0.03514,
+          "z": 0.00398
+        },
+        "rotation": {
+          "x": 315.0536,
+          "y": 266.4966,
+          "z": 2.4765017
+        },
+        "quantity": 1,
+        "enabledState": false,
+        "hotspotEnabled": false,
+        "customData": {}
+      },
+      "DynamicObject.5f5d8b4c60cecf245954ec73a7b6ea0b": {
+        "rotation": {
+          "x": 270.0,
+          "y": 179.999985,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DynamicObject.68e0a21c63a5a4643a3f5dc9de350f31": {
+        "localPosition": {
+          "x": 0.000931,
+          "y": 0.0,
+          "z": 0.001495583
+        },
+        "isOpened": false,
+        "isLocked": false
+      },
+      "ObjectiveTrigger.58ab4ce1ec077ed428dba43de7af97bb": {
+        "isTriggered": false
+      },
+      "ObjectiveTrigger.b695f4f18ecbf6c43a07fe606f971177": {
+        "isTriggered": false
+      },
+      "ObjectiveTrigger.bdb77e758fb88df4d84a7ddaeba1d62a": {
+        "isTriggered": false
+      },
+      "NPCHealth.797089826a0c2df45acb7e95a6e8139a": {
+        "position": {
+          "x": 12.05,
+          "y": -0.7938349,
+          "z": 49.775
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 237.833908,
+          "z": 0.0
+        },
+        "health": 0
+      },
+      "ObjectiveTrigger.a7f8e3de19cb99f4ea610c19a6e2474b": {
+        "isTriggered": false
+      },
+      "DynamicObject.99a080d9d3e772345b99f69399ac9cf8": {
+        "rotation": {
+          "x": 270.019775,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DialogueTrigger.48727feed120bf64f86d322be3cd9b56": {
+        "IsCompleted": false
+      },
+      "SaveableObject.2f39d023eed77aa40a0dd421e8c3fe15": {
+        "position": {
+          "x": 6.45,
+          "y": -0.25,
+          "z": 51.87
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 180.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 13.0
+        },
+        "objectActive": true
+      },
+      "DynamicObject.5cad4ad481f78cd45a5f279ea5b758c0": {
+        "rotation": {
+          "x": 0.0,
+          "y": 90.0,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": true
+      },
+      "ObjectiveTrigger.edfd9231d0725324da2dc84692b2e433": {
+        "isTriggered": false
+      },
+      "DynamicObject.fd47be670d5d0c34abe257fc25bf7b03": {
+        "localPosition": {
+          "x": 0.000931,
+          "y": -1.19209287E-09,
+          "z": 0.001495583
+        },
+        "isOpened": false,
+        "isLocked": false
+      },
+      "ObjectiveTrigger.f586475989a378a4e9bd03e2789842d0": {
+        "isTriggered": false
+      },
+      "DynamicObject.0680f80b10c342b448e57eb16e662dd7": {
+        "rotation": {
+          "x": 270.019775,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DynamicObject.6b09d5bec4cd85441b5e71231b218c9f": {
+        "rotation": {
+          "x": 270.0,
+          "y": 179.999985,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "ObjectiveTrigger.a916243d81fdf2649ad8327846d532d4": {
+        "isTriggered": false
+      },
+      "InteractableItem.5b2d5b4ca1421d342a282c30d095b392": {
+        "position": {
+          "x": -0.089734,
+          "y": -0.4079,
+          "z": -0.004863
+        },
+        "rotation": {
+          "x": 17.9,
+          "y": 268.073,
+          "z": 1.36200392
+        },
+        "quantity": 1,
+        "enabledState": false,
+        "hotspotEnabled": false,
+        "customData": {}
+      },
+      "DynamicObject.224791f90ae947041a0ce4618018cea5": {
+        "rotation": {
+          "x": 270.0,
+          "y": 179.999985,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DynamicObject.7b8d326f40b95ce4b95ea64162179350": {
+        "localPosition": {
+          "x": 0.000931,
+          "y": 0.0,
+          "z": 0.001495583
+        },
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DynamicObject.a09959a3cae16c94d9b1e2061812ce87": {
+        "localPosition": {
+          "x": 0.000931,
+          "y": 0.0,
+          "z": 0.001495583
+        },
+        "isOpened": false,
+        "isLocked": false
+      },
+      "InteractableItem.2fd43754d1f0e26469dfc2d162689b5b": {
+        "position": {
+          "x": -12.7626,
+          "y": 1.802,
+          "z": 31.131
+        },
+        "rotation": {
+          "x": 322.547119,
+          "y": 205.254639,
+          "z": 108.850594
+        },
+        "quantity": 1,
+        "enabledState": true,
+        "hotspotEnabled": true,
+        "customData": {}
+      },
+      "DynamicObject.916ea9cd60a423a4d9f1ece5e55ba369": {
+        "localPosition": {
+          "x": 0.000931,
+          "y": 0.0,
+          "z": 0.001495583
+        },
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DynamicObject.400385f325ab2604888bd5299a8ed51a": {
+        "rotation": {
+          "x": 270.0,
+          "y": 179.999985,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "ObjectiveTrigger.88d02fa6cb6677e48a5aca0737b15539": {
+        "isTriggered": false
+      },
+      "DynamicObject.41ab7e3ebaa5500448ae548e25f9bc2f": {
+        "rotation": {
+          "x": 270.019775,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "CutsceneTrigger.499d06eff7b1a454b8e5a394c720d5ea": {
+        "isPlayed": false
+      },
+      "FuseboxPuzzle.ab46e1a4790bfae49aaa582c68754b8f": {
+        "fuse_0": false,
+        "fuse_1": false,
+        "fuse_2": false
+      },
+      "DynamicObject.9c5469d62ebb994489307fbde75c7c6f": {
+        "rotation": {
+          "x": 270.019775,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DynamicObject.ebdef3459509c174d8550d6a43dc484e": {
+        "rotation": {
+          "x": 270.0,
+          "y": 179.999985,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DynamicObject.ff726db783fac404ea64c58434b844bd": {
+        "localPosition": {
+          "x": 0.000931,
+          "y": 0.0,
+          "z": 0.001495583
+        },
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DynamicObject.5b648b2f8acbc174598d49e85904afb5": {
+        "rotation": {
+          "x": 270.019775,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "ObjectiveTrigger.b3f96488ce452b248884c1ec626e251c": {
+        "isTriggered": false
+      },
+      "DynamicObject.a394cf518abc4984d862df8e2c8060ba": {
+        "rotation": {
+          "x": 0.0,
+          "y": 90.0,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "InteractableItem.e67466f55ba6334469fbe092663785f5": {
+        "position": {
+          "x": -0.069988,
+          "y": -0.207061,
+          "z": 0.000115
+        },
+        "rotation": {
+          "x": 298.3,
+          "y": 266.497,
+          "z": 2.47699952
+        },
+        "quantity": 1,
+        "enabledState": false,
+        "hotspotEnabled": false,
+        "customData": {}
+      },
+      "SaveableCollider.60a14e34da0087544bba59362d80d5a8": {
+        "enabled": false
+      },
+      "DynamicObject.115ecfc18927feb40b9816d344b2c189": {
+        "rotation": {
+          "x": 270.0,
+          "y": 179.999985,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DialogueTrigger.97c0498fcff1b684a9a6ec690b90495e": {
+        "IsCompleted": false
+      },
+      "SaveableAudio.211b7408dd829884ea80df0f0768f465": {
+        "enabled": true
+      },
+      "InteractableItem.5ad5f776f4cca4246a13f26ac2099a74": {
+        "position": {
+          "x": -0.008265,
+          "y": -0.207342,
+          "z": 0.000147
+        },
+        "rotation": {
+          "x": 298.3,
+          "y": 266.497,
+          "z": 2.47699952
+        },
+        "quantity": 1,
+        "enabledState": false,
+        "hotspotEnabled": false,
+        "customData": {}
+      },
+      "CutsceneTrigger.48fd193960d55844d8fa044c91b09d6b": {
+        "isPlayed": false
+      },
+      "DynamicObject.bc657d05d6ba4ea4eb219d85fe4f1978": {
+        "rotation": {
+          "x": 270.0,
+          "y": 179.999985,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "ObjectiveTrigger.a445dd446f8fd874aa24c6707988e63e": {
+        "isTriggered": false
+      },
+      "InteractableItem.10da3cf164750b44aa0ba8e394282b18": {
+        "position": {
+          "x": -0.1422,
+          "y": 1.1473999,
+          "z": -0.4189
+        },
+        "rotation": {
+          "x": 1.15259445E-05,
+          "y": 172.470657,
+          "z": 90.0
+        },
+        "quantity": 1,
+        "enabledState": true,
+        "hotspotEnabled": false,
+        "customData": {}
+      },
+      "SaveableObject.f429e786f2af4f349a28a60783230e17": {
+        "objectActive": false
+      },
+      "DynamicObject.0b7332d36a96cf848a9fe2a7d5b4624a": {
+        "rotation": {
+          "x": 270.019775,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DynamicObject.7d2a91ebf915b334b8801f4e30ce15d8": {
+        "rotation": {
+          "x": 270.0,
+          "y": 179.999985,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DynamicObject.c3ddb069b9e42ee4e889e8b98f6c9618": {
+        "localPosition": {
+          "x": 0.000931,
+          "y": 0.0,
+          "z": 0.001495583
+        },
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DynamicObject.4a724597d62c3c94ca35953ac69a64b8": {
+        "rotation": {
+          "x": 270.019775,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "ObjectiveTrigger.3b20c111b4cf30740826aa18271117c7": {
+        "isTriggered": false
+      },
+      "SimpleLight.71bca7fcdc69517439a5e4b1fc2e68c9": {
+        "lightState": false
+      },
+      "DynamicObject.7ccf6e2ec1d253741948810aaa1f6ada": {
+        "localPosition": {
+          "x": 0.000931,
+          "y": 0.0,
+          "z": 0.001495583
+        },
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DynamicObject.0683e3b3f3763ea46a7dc06d02ecd39f": {
+        "rotation": {
+          "x": 0.0,
+          "y": 90.0,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DynamicObject.f3f24bbf06132e240bcef0b5a6ade6ac": {
+        "rotation": {
+          "x": 270.019775,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DynamicObject.f1eb50e3c1fc2884f8b25169b844b600": {
+        "localPosition": {
+          "x": 0.000931,
+          "y": -1.19209287E-09,
+          "z": 0.001495583
+        },
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DynamicObject.dca603f270b647449bcce854b5344311": {
+        "rotation": {
+          "x": 0.0,
+          "y": 90.0,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "ObjectiveTrigger.8399da504ff10ab4ab16a1b8a487809a": {
+        "isTriggered": false
+      },
+      "DynamicObject.957563f11d49fe9479e25a185b611f13": {
+        "rotation": {
+          "x": 270.019775,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DynamicObject.78f32619713726e4bbe477444ff974e5": {
+        "rotation": {
+          "x": 0.0,
+          "y": 90.0,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "ObjectiveTrigger.1a0313c7c52647c47821f05708db0079": {
+        "isTriggered": false
+      },
+      "DynamicObject.688c226151d19d74ca015ec2a459e984": {
+        "rotation": {
+          "x": 270.0,
+          "y": 179.999985,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DynamicObject.917d547e2a63d8240ae45029917e7797": {
+        "rotation": {
+          "x": 270.019775,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "DynamicObject.a42a77cc17a59564d9eab52e8f59b454": {
+        "rotation": {
+          "x": 270.0,
+          "y": 179.999985,
+          "z": 0.0
+        },
+        "targetAngle": 0.0,
+        "currentAngle": 0.0,
+        "openAngle": 0.0,
+        "isOpenSound": false,
+        "disableSounds": false,
+        "isOpened": false,
+        "isLocked": false
+      },
+      "InteractableItem.023594bb748dcd24a9ae2325d3f9bfc6": {
+        "position": {
+          "x": -15.6452761,
+          "y": 0.997,
+          "z": 67.94539
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "quantity": 1,
+        "enabledState": true,
+        "hotspotEnabled": true,
+        "customData": {}
+      },
+      "DynamicObject.015c0c24aaffa8a4993cb8bb1b264bcf": {
+        "localPosition": {
+          "x": 0.000931,
+          "y": 4.76837148E-09,
+          "z": 0.001495583
+        },
+        "isOpened": false,
+        "isLocked": false
+      },
+      "ObjectiveTrigger.ce81a6290e6ec6349b24636793d3389f": {
+        "isTriggered": false
+      },
+      "DynamicObject.286041cee113eb84b99f49dcc387ac30": {
+        "localPosition": {
+          "x": 0.000931,
+          "y": 0.0,
+          "z": 0.001495583
+        },
+        "isOpened": false,
+        "isLocked": false
+      },
+      "InteractableItem.8051146cb0b47b44688b131eaccc2b9a": {
+        "position": {
+          "x": -0.070932,
+          "y": -0.434907,
+          "z": 0.000137
+        },
+        "rotation": {
+          "x": 17.9,
+          "y": 268.073,
+          "z": 1.36200392
+        },
+        "quantity": 1,
+        "enabledState": false,
+        "hotspotEnabled": false,
+        "customData": {}
+      }
+    },
+    "runtimeSaveables": {}
+  }
+}

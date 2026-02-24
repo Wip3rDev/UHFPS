@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2721557039429633718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3042568885237383068}
+  - component: {fileID: 7724001354812968681}
+  - component: {fileID: 7465047605301602382}
+  m_Layer: 0
+  m_Name: GlobalVolume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3042568885237383068
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2721557039429633718}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5321877309594430150}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7724001354812968681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2721557039429633718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: b6fdfcfbb4c43db47952215605b81fca, type: 2}
+--- !u!114 &7465047605301602382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2721557039429633718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22c506f8e2c894f4aa4c8c60958e9231, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OptionObservers:
+  - rid: 5518344899170664511
+  - rid: 5518344899170664512
+  - rid: 5518344899170664513
+  - rid: 5518344899170664514
+  - rid: 5518344899170664515
+  references:
+    version: 2
+    RefIds:
+    - rid: 5518344899170664511
+      type: {class: OptionBrightness, ns: UHFPS.Runtime, asm: Assembly-CSharp}
+      data:
+        ObserveOptionName: brightness
+        Volume: {fileID: 7724001354812968681}
+        ExposureLimits:
+          min: 0
+          max: 1
+    - rid: 5518344899170664512
+      type: {class: OptionVolumeActive, ns: UHFPS.Runtime, asm: Assembly-CSharp}
+      data:
+        ObserveOptionName: pp_bloom
+        volumeComponent:
+          Volume: {fileID: 7724001354812968681}
+          ComponentIndex: 1
+    - rid: 5518344899170664513
+      type: {class: OptionVolumeActive, ns: UHFPS.Runtime, asm: Assembly-CSharp}
+      data:
+        ObserveOptionName: pp_vignette
+        volumeComponent:
+          Volume: {fileID: 7724001354812968681}
+          ComponentIndex: 2
+    - rid: 5518344899170664514
+      type: {class: OptionVolumeActive, ns: UHFPS.Runtime, asm: Assembly-CSharp}
+      data:
+        ObserveOptionName: pp_grain
+        volumeComponent:
+          Volume: {fileID: 7724001354812968681}
+          ComponentIndex: 3
+    - rid: 5518344899170664515
+      type: {class: OptionVolumeActive, ns: UHFPS.Runtime, asm: Assembly-CSharp}
+      data:
+        ObserveOptionName: pp_chromatic_aberration
+        volumeComponent:
+          Volume: {fileID: 7724001354812968681}
+          ComponentIndex: 4
+--- !u!1 &4314662294405052396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 654955947728528386}
+  - component: {fileID: 7074511506128915077}
+  m_Layer: 0
+  m_Name: HealthVolume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &654955947728528386
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4314662294405052396}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5321877309594430150}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7074511506128915077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4314662294405052396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 1
+  blendDistance: 0
+  weight: 0
+  sharedProfile: {fileID: 11400000, guid: 4542ac630acb1344d9b3d3d12a1d705a, type: 2}
+--- !u!1 &8580573813323844592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5321877309594430150}
+  m_Layer: 0
+  m_Name: VolumeProfiles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5321877309594430150
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8580573813323844592}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3042568885237383068}
+  - {fileID: 654955947728528386}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -1,0 +1,1423 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e99433e1eef4a964d98eb541d664ab70, type: 3}
+  m_Name: NewLocalizationLanguage
+  m_EditorClassIdentifier: 
+  LanguageName: Russian
+  Strings:
+  - EntryId: 15172027
+    SectionId: 40893112
+    Key: input.action.movement.up
+    Value: "\u0414\u0432\u0438\u0436\u0435\u043D\u0438\u0435 \u0432\u043F\u0435\u0440\u0451\u0434"
+  - EntryId: 48836686
+    SectionId: 40893112
+    Key: input.action.movement.down
+    Value: "\u0414\u0432\u0438\u0436\u0435\u043D\u0438\u0435 \u043D\u0430\u0437\u0430\u0434"
+  - EntryId: 42985932
+    SectionId: 40893112
+    Key: input.action.movement.left
+    Value: "\u0414\u0432\u0438\u0436\u0435\u043D\u0438\u0435 \u0432\u043B\u0435\u0432\u043E"
+  - EntryId: 89388492
+    SectionId: 40893112
+    Key: input.action.movement.right
+    Value: "\u0414\u0432\u0438\u0436\u0435\u043D\u0438\u0435 \u0432\u043F\u0440\u0430\u0432\u043E"
+  - EntryId: 91879250
+    SectionId: 40893112
+    Key: input.action.sprint
+    Value: "\u0411\u0435\u0433"
+  - EntryId: 72077938
+    SectionId: 40893112
+    Key: input.action.jump
+    Value: "\u041F\u0440\u044B\u0436\u043E\u043A"
+  - EntryId: 26866831
+    SectionId: 40893112
+    Key: input.action.crouch
+    Value: "\u041F\u0440\u0438\u0441\u0435\u0441\u0442\u044C"
+  - EntryId: 71917174
+    SectionId: 40893112
+    Key: input.action.use
+    Value: "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C"
+  - EntryId: 99249963
+    SectionId: 40893112
+    Key: input.action.examine
+    Value: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C"
+  - EntryId: 13648412
+    SectionId: 40893112
+    Key: input.action.fire
+    Value: "\u0412\u044B\u0441\u0442\u0440\u0435\u043B\u0438\u0442\u044C"
+  - EntryId: 85843821
+    SectionId: 40893112
+    Key: input.action.reload
+    Value: "\u041F\u0435\u0440\u0435\u0437\u0430\u0440\u044F\u0434\u0438\u0442\u044C"
+  - EntryId: 81674536
+    SectionId: 40893112
+    Key: input.action.ads
+    Value: "\u041F\u0440\u0438\u0446\u0435\u043B\u0438\u0442\u044C\u0441\u044F"
+  - EntryId: 31740936
+    SectionId: 40893112
+    Key: input.action.equip1
+    Value: "\u042D\u043A\u0438\u043F\u0438\u0440\u043E\u0432\u0430\u0442\u044C 1"
+  - EntryId: 59043625
+    SectionId: 40893112
+    Key: input.action.equip2
+    Value: "\u042D\u043A\u0438\u043F\u0438\u0440\u043E\u0432\u0430\u0442\u044C 2"
+  - EntryId: 40362316
+    SectionId: 40893112
+    Key: input.action.equip3
+    Value: "\u042D\u043A\u0438\u043F\u0438\u0440\u043E\u0432\u0430\u0442\u044C 3"
+  - EntryId: 81721455
+    SectionId: 40893112
+    Key: input.action.equip4
+    Value: "\u042D\u043A\u0438\u043F\u0438\u0440\u043E\u0432\u0430\u0442\u044C 4"
+  - EntryId: 81699452
+    SectionId: 40893112
+    Key: input.action.unequip
+    Value: "\u0423\u0431\u0440\u0430\u0442\u044C"
+  - EntryId: 74840067
+    SectionId: 40893112
+    Key: input.action.lean.positive
+    Value: "\u041D\u0430\u043A\u043B\u043E\u043D\u0438\u0442\u044C\u0441\u044F \u0432\u043F\u0440\u0430\u0432\u043E"
+  - EntryId: 54335613
+    SectionId: 40893112
+    Key: input.action.lean.negative
+    Value: "\u041D\u0430\u043A\u043B\u043E\u043D\u0438\u0442\u044C\u0441\u044F \u0432\u043B\u0435\u0432\u043E"
+  - EntryId: 72003672
+    SectionId: 40893112
+    Key: input.action.flashlight
+    Value: "\u0424\u043E\u043D\u0430\u0440\u0438\u043A"
+  - EntryId: 12834590
+    SectionId: 84607436
+    Key: menu.title.loadgame
+    Value: "\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044C \u0438\u0433\u0440\u0443"
+  - EntryId: 19909919
+    SectionId: 84607436
+    Key: menu.title.options
+    Value: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
+  - EntryId: 38947490
+    SectionId: 84607436
+    Key: menu.title.pause
+    Value: "\u041C\u0435\u043D\u044E \u043F\u0430\u0443\u0437\u044B"
+  - EntryId: 21255646
+    SectionId: 84607436
+    Key: menu.button.resume
+    Value: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
+  - EntryId: 67914274
+    SectionId: 84607436
+    Key: menu.button.continue
+    Value: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
+  - EntryId: 79667033
+    SectionId: 84607436
+    Key: menu.button.newgame
+    Value: "\u041D\u043E\u0432\u0430\u044F \u0438\u0433\u0440\u0430"
+  - EntryId: 18226444
+    SectionId: 84607436
+    Key: menu.button.loadgame
+    Value: "\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044C \u0438\u0433\u0440\u0443"
+  - EntryId: 55566430
+    SectionId: 84607436
+    Key: menu.button.savegame
+    Value: "\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C \u0438\u0433\u0440\u0443"
+  - EntryId: 31415227
+    SectionId: 84607436
+    Key: menu.button.options
+    Value: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
+  - EntryId: 51656323
+    SectionId: 84607436
+    Key: menu.button.quit
+    Value: "\u0412\u044B\u0439\u0442\u0438"
+  - EntryId: 86796110
+    SectionId: 84607436
+    Key: menu.button.restart
+    Value: "\u041D\u0430\u0447\u0430\u0442\u044C \u0437\u0430\u043D\u043E\u0432\u043E"
+  - EntryId: 24352737
+    SectionId: 84607436
+    Key: menu.button.mainmenu
+    Value: "\u0413\u043B\u0430\u0432\u043D\u043E\u0435 \u043C\u0435\u043D\u044E"
+  - EntryId: 25663424
+    SectionId: 84607436
+    Key: menu.button.back
+    Value: "\u041D\u0430\u0437\u0430\u0434"
+  - EntryId: 33340621
+    SectionId: 84607436
+    Key: menu.button.load
+    Value: "\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044C"
+  - EntryId: 35886959
+    SectionId: 84607436
+    Key: menu.button.delete
+    Value: "\u0423\u0434\u0430\u043B\u0438\u0442\u044C"
+  - EntryId: 48769564
+    SectionId: 84607436
+    Key: menu.button.apply
+    Value: "\u041F\u0440\u0438\u043C\u0435\u043D\u0438\u0442\u044C"
+  - EntryId: 99361921
+    SectionId: 84607436
+    Key: menu.button.reset
+    Value: "\u0421\u0431\u0440\u043E\u0441\u0438\u0442\u044C"
+  - EntryId: 78931432
+    SectionId: 84607436
+    Key: menu.tooltip.continue
+    Value: "\u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043A \u0441\u043E\u0445\u0440\u0430\u043D\u0451\u043D\u043D\u043E\u043C\u0443
+      \u043F\u0440\u043E\u0433\u0440\u0435\u0441\u0441\u0443"
+  - EntryId: 91768521
+    SectionId: 84607436
+    Key: menu.tooltip.resume
+    Value: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0438\u0433\u0440\u0443"
+  - EntryId: 85618282
+    SectionId: 84607436
+    Key: menu.tooltip.newgame
+    Value: "\u041D\u0430\u0447\u0430\u0442\u044C \u043D\u043E\u0432\u0443\u044E \u0438\u0433\u0440\u0443"
+  - EntryId: 55974627
+    SectionId: 84607436
+    Key: menu.tooltip.loadgame
+    Value: "\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044C \u0440\u0430\u043D\u0435\u0435
+      \u0441\u043E\u0445\u0440\u0430\u043D\u0451\u043D\u043D\u0443\u044E \u0438\u0433\u0440\u0443"
+  - EntryId: 21595021
+    SectionId: 84607436
+    Key: menu.tooltip.savegame
+    Value: "\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C \u0442\u0435\u043A\u0443\u0449\u0438\u0439
+      \u043F\u0440\u043E\u0433\u0440\u0435\u0441\u0441"
+  - EntryId: 30213956
+    SectionId: 84607436
+    Key: menu.tooltip.options
+    Value: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438 \u0438\u0433\u0440\u044B
+      \u0438 \u043F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u044B"
+  - EntryId: 33214590
+    SectionId: 84607436
+    Key: menu.tooltip.quit
+    Value: "\u0412\u044B\u0439\u0442\u0438 \u0438\u0437 \u0438\u0433\u0440\u044B"
+  - EntryId: 78530917
+    SectionId: 84607436
+    Key: menu.tooltip.restart
+    Value: "\u041D\u0430\u0447\u0430\u0442\u044C \u0438\u0433\u0440\u0443 \u0441
+      \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0435\u0433\u043E \u0441\u043E\u0445\u0440\u0430\u043D\u0435\u043D\u0438\u044F"
+  - EntryId: 81988112
+    SectionId: 84607436
+    Key: menu.tooltip.mainmenu
+    Value: "\u0412\u044B\u0439\u0442\u0438 \u0432 \u0433\u043B\u0430\u0432\u043D\u043E\u0435
+      \u043C\u0435\u043D\u044E"
+  - EntryId: 34760757
+    SectionId: 84607436
+    Key: menu.input.rebind
+    Value: "\u041D\u0430\u0436\u043C\u0438\u0442\u0435 \u043A\u043D\u043E\u043F\u043A\u0443"
+  - EntryId: 44010618
+    SectionId: 84607436
+    Key: menu.input.none
+    Value: "\u041D\u0435\u0442"
+  - EntryId: 91370004
+    SectionId: 84607436
+    Key: menu.panel.loadgame
+    Value: "\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044C \u0438\u0433\u0440\u0443"
+  - EntryId: 66529808
+    SectionId: 84607436
+    Key: menu.panel.keybindings
+    Value: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438 \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F"
+  - EntryId: 73309676
+    SectionId: 84607436
+    Key: menu.panel.emptysaves
+    Value: "\u0421\u043E\u0445\u0440\u0430\u043D\u0451\u043D\u043D\u044B\u0435 \u0438\u0433\u0440\u044B
+      \u043E\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u044E\u0442."
+  - EntryId: 50945637
+    SectionId: 84607436
+    Key: menu.text.died
+    Value: "\u0412\u044B \u043F\u043E\u0433\u0438\u0431\u043B\u0438"
+  - EntryId: 15072704
+    SectionId: 84607436
+    Key: menu.press.any.key
+    Value: "\u041D\u0430\u0436\u043C\u0438\u0442\u0435 \u043B\u044E\u0431\u0443\u044E
+      \u043A\u043B\u0430\u0432\u0438\u0448\u0443"
+  - EntryId: 10698701
+    SectionId: 84607436
+    Key: menu.vhs
+    Value: "\u042D\u0444\u0444\u0435\u043A\u0442 VHS"
+  - EntryId: 75562718
+    SectionId: 22328812
+    Key: loading.description.demoscene
+    Value: "\u0412 \u044D\u0442\u043E\u0439 \u0434\u0435\u043C\u043E\u043D\u0441\u0442\u0440\u0430\u0446\u0438\u043E\u043D\u043D\u043E\u0439
+      \u0441\u0446\u0435\u043D\u0435 \u0432\u044B \u0441\u043C\u043E\u0436\u0435\u0442\u0435
+      \u0443\u0432\u0438\u0434\u0435\u0442\u044C \u0438 \u0438\u0437\u0443\u0447\u0438\u0442\u044C
+      \u0432\u0441\u0435 \u0432\u043F\u0435\u0447\u0430\u0442\u043B\u044F\u044E\u0449\u0438\u0435
+      \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u0438 \u043D\u0430\u0431\u043E\u0440\u0430.
+      \u0421\u0446\u0435\u043D\u0430 \u0441\u043F\u0435\u0446\u0438\u0430\u043B\u044C\u043D\u043E
+      \u0441\u043E\u0437\u0434\u0430\u043D\u0430, \u0447\u0442\u043E\u0431\u044B
+      \u043F\u043E\u043A\u0430\u0437\u0430\u0442\u044C \u0432\u0435\u0441\u044C \u043F\u043E\u0442\u0435\u043D\u0446\u0438\u0430\u043B
+      \u0430\u0441\u0441\u0435\u0442\u0430, \u043F\u043E\u0437\u0432\u043E\u043B\u044F\u044F
+      \u0432\u0441\u0435\u0441\u0442\u043E\u0440\u043E\u043D\u043D\u0435 \u0435\u0433\u043E
+      \u043F\u0440\u043E\u0442\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C."
+  - EntryId: 48298615
+    SectionId: 22328812
+    Key: loading.description.demoscene2
+    Value: "\u0412 \u044D\u0442\u043E\u0439 \u0438\u043D\u0442\u0435\u0440\u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0439
+      \u0434\u0435\u043C\u043E-\u0441\u0446\u0435\u043D\u0435 \u0443 \u0432\u0430\u0441
+      \u0431\u0443\u0434\u0435\u0442 \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u044C
+      \u043B\u0438\u0447\u043D\u043E \u0432\u0437\u0430\u0438\u043C\u043E\u0434\u0435\u0439\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C
+      \u0441 \u043B\u0438\u0444\u0442\u043E\u0432\u043E\u0439 \u0441\u0438\u0441\u0442\u0435\u043C\u043E\u0439,
+      \u0434\u0435\u043C\u043E\u043D\u0441\u0442\u0440\u0438\u0440\u0443\u044F \u0435\u0451
+      \u043F\u043B\u0430\u0432\u043D\u0443\u044E \u0440\u0430\u0431\u043E\u0442\u0443
+      \u0438 \u0438\u043D\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044E, \u0430
+      \u0442\u0430\u043A\u0436\u0435 \u0434\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u043C\u0435\u0447\u0430\u0442\u0435\u043B\u044C\u043D\u044B\u0435
+      \u043E\u0441\u043E\u0431\u0435\u043D\u043D\u043E\u0441\u0442\u0438 \u043D\u0430\u0431\u043E\u0440\u0430."
+  - EntryId: 99899103
+    SectionId: 22328812
+    Key: loading.description.demoscene3
+    Value: "\u041D\u0430 \u0443\u043B\u0438\u0446\u0435 \u0438\u0434\u0451\u0442
+      \u0434\u043E\u0436\u0434\u044C. \u0412\u044B \u043C\u043E\u0436\u0435\u0442\u0435
+      \u043F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C, \u043A\u0430\u043A
+      \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442 \u044D\u0444\u0444\u0435\u043A\u0442
+      \u043A\u0430\u043F\u0435\u043B\u044C, \u043A\u043E\u0433\u0434\u0430 \u0432\u044B
+      \u043D\u0430\u0445\u043E\u0434\u0438\u0442\u0435\u0441\u044C \u043F\u043E\u0434
+      \u043A\u0440\u044B\u0448\u0435\u0439 \u0438\u043B\u0438 \u043D\u0435\u0442."
+  - EntryId: 60467349
+    SectionId: 22328812
+    Key: loading.park
+    Value: "\u0422\u0440\u0435\u0439\u043B\u0435\u0440\u043D\u044B\u0439 \u043F\u0430\u0440\u043A"
+  - EntryId: 85816423
+    SectionId: 22328812
+    Key: loading.description.park
+    Value: "\u0422\u0438\u0445\u0438\u0439 \u0442\u0440\u0435\u0439\u043B\u0435\u0440-\u043F\u0430\u0440\u043A
+      \u043D\u0430 \u043E\u043A\u0440\u0430\u0438\u043D\u0435 \u0433\u043E\u0440\u043E\u0434\u0430.
+      \u0422\u044B \u043F\u0440\u0438\u0435\u0445\u0430\u043B \u0441\u044E\u0434\u0430
+      \u043D\u0435 \u043F\u0440\u043E\u0441\u0442\u043E \u0442\u0430\u043A."
+  - EntryId: 61351216
+    SectionId: 59169988
+    Key: titles.putaway
+    Value: "\u0423\u0431\u0440\u0430\u0442\u044C"
+  - EntryId: 36173073
+    SectionId: 59169988
+    Key: titles.take
+    Value: "\u0412\u0437\u044F\u0442\u044C"
+  - EntryId: 46183422
+    SectionId: 59169988
+    Key: titles.rotate
+    Value: "\u041F\u043E\u0432\u0435\u0440\u043D\u0443\u0442\u044C"
+  - EntryId: 17498606
+    SectionId: 59169988
+    Key: titles.loot
+    Value: "\u041F\u043E\u0434\u043E\u0431\u0440\u0430\u043D"
+  - EntryId: 61429632
+    SectionId: 59169988
+    Key: titles.inserttape
+    Value: "\u0412\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u043A\u0430\u0441\u0441\u0435\u0442\u0443"
+  - EntryId: 72865766
+    SectionId: 59169988
+    Key: titles.poweron
+    Value: "\u0412\u043A\u043B\u044E\u0447\u0438\u0442\u044C"
+  - EntryId: 52157472
+    SectionId: 59169988
+    Key: titles.poweroff
+    Value: "\u0412\u044B\u043A\u043B\u044E\u0447\u0438\u0442\u044C"
+  - EntryId: 80313860
+    SectionId: 59169988
+    Key: titles.ejecttape
+    Value: "\u0418\u0437\u0432\u043B\u0435\u0447\u044C \u043A\u0430\u0441\u0441\u0435\u0442\u0443"
+  - EntryId: 66958135
+    SectionId: 59169988
+    Key: titles.play
+    Value: "\u0412\u043E\u0441\u043F\u0440\u043E\u0438\u0437\u0432\u0435\u0441\u0442\u0438"
+  - EntryId: 61574451
+    SectionId: 59169988
+    Key: titles.pause
+    Value: "\u041F\u0430\u0443\u0437\u0430"
+  - EntryId: 30659339
+    SectionId: 59169988
+    Key: titles.rewind
+    Value: "\u041F\u0435\u0440\u0435\u043C\u043E\u0442\u0430\u0442\u044C \u043D\u0430\u0437\u0430\u0434"
+  - EntryId: 66300923
+    SectionId: 59169988
+    Key: titles.fastforward
+    Value: "\u041F\u0435\u0440\u0435\u043C\u043E\u0442\u0430\u0442\u044C \u0432\u043F\u0435\u0440\u0451\u0434"
+  - EntryId: 84772315
+    SectionId: 59169988
+    Key: titles.lockpicks
+    Value: "\u041E\u0442\u043C\u044B\u0447\u043A\u0438: [count]"
+  - EntryId: 92694732
+    SectionId: 59169988
+    Key: titles.run.away
+    Value: "\u0421\u0431\u0435\u0436\u0430\u0442\u044C"
+  - EntryId: 29047852
+    SectionId: 59169988
+    Key: titles.invenroty
+    Value: "\u0418\u041D\u0412\u0415\u041D\u0422\u0410\u0420\u042C"
+  - EntryId: 49109539
+    SectionId: 59169988
+    Key: titles.audio
+    Value: "\u0410\u0443\u0434\u0438\u043E"
+  - EntryId: 72058413
+    SectionId: 59169988
+    Key: titles.general
+    Value: "\u041E\u0431\u0449\u0438\u0435"
+  - EntryId: 56840695
+    SectionId: 59169988
+    Key: titles.controls
+    Value: "\u0423\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435"
+  - EntryId: 83521634
+    SectionId: 59169988
+    Key: titles.graphics
+    Value: "\u0413\u0440\u0430\u0444\u0438\u043A\u0430"
+  - EntryId: 94577514
+    SectionId: 69673941
+    Key: interactions.use
+    Value: "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C"
+  - EntryId: 61453117
+    SectionId: 69673941
+    Key: interactions.use.hold
+    Value: "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C
+      (\u0443\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0442\u044C)"
+  - EntryId: 10293257
+    SectionId: 69673941
+    Key: interactions.grab
+    Value: "\u0412\u0437\u044F\u0442\u044C"
+  - EntryId: 95058002
+    SectionId: 69673941
+    Key: interactions.examine
+    Value: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C"
+  - EntryId: 92590947
+    SectionId: 69673941
+    Key: interactions.travel
+    Value: "\u041F\u0435\u0440\u0435\u043C\u0435\u0441\u0442\u0438\u0442\u044C\u0441\u044F"
+  - EntryId: 95255333
+    SectionId: 69673941
+    Key: interactions.configure
+    Value: "\u041D\u0430\u0441\u0442\u0440\u043E\u0438\u0442\u044C"
+  - EntryId: 82492818
+    SectionId: 69673941
+    Key: interactions.insertfuse
+    Value: "\u0412\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u043F\u0440\u0435\u0434\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u0435\u043B\u044C"
+  - EntryId: 28681382
+    SectionId: 69673941
+    Key: interactions.code
+    Value: "\u0412\u0432\u0435\u0441\u0442\u0438 \u043A\u043E\u0434"
+  - EntryId: 70511385
+    SectionId: 69673941
+    Key: interactions.card
+    Value: "\u0418\u0441\u043F. \u043A\u043B\u044E\u0447-\u043A\u0430\u0440\u0442\u0443"
+  - EntryId: 48925815
+    SectionId: 69673941
+    Key: interactions.switch
+    Value: "\u041F\u0435\u0440\u0435\u043A\u043B\u044E\u0447\u0438\u0442\u044C"
+  - EntryId: 19195279
+    SectionId: 69673941
+    Key: interactions.switchon
+    Value: "\u0412\u043A\u043B\u044E\u0447\u0438\u0442\u044C"
+  - EntryId: 78764854
+    SectionId: 69673941
+    Key: interactions.switchoff
+    Value: "\u0412\u044B\u043A\u043B\u044E\u0447\u0438\u0442\u044C"
+  - EntryId: 64575804
+    SectionId: 69673941
+    Key: interactions.poweron
+    Value: "\u0412\u043A\u043B\u044E\u0447\u0438\u0442\u044C \u043F\u0438\u0442\u0430\u043D\u0438\u0435"
+  - EntryId: 86485218
+    SectionId: 69673941
+    Key: interactions.poweroff
+    Value: "\u0412\u044B\u043A\u043B\u044E\u0447\u0438\u0442\u044C \u043F\u0438\u0442\u0430\u043D\u0438\u0435"
+  - EntryId: 90802756
+    SectionId: 69673941
+    Key: interactions.rotate
+    Value: "\u041F\u043E\u0432\u0435\u0440\u043D\u0443\u0442\u044C"
+  - EntryId: 69712916
+    SectionId: 69673941
+    Key: interactions.open
+    Value: "\u041E\u0442\u043A\u0440\u044B\u0442\u044C"
+  - EntryId: 54189661
+    SectionId: 69673941
+    Key: interactions.close
+    Value: "\u0417\u0430\u043A\u0440\u044B\u0442\u044C"
+  - EntryId: 53506186
+    SectionId: 69673941
+    Key: interactions.extinguish
+    Value: "\u041F\u043E\u0442\u0443\u0448\u0438\u0442\u044C"
+  - EntryId: 50724348
+    SectionId: 69673941
+    Key: interactions.kindle
+    Value: "\u0420\u0430\u0437\u0436\u0435\u0447\u044C (\u0443\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0442\u044C)"
+  - EntryId: 24862863
+    SectionId: 69673941
+    Key: interactions.refuel.hold
+    Value: "\u0417\u0430\u043F\u0440\u0430\u0432\u0438\u0442\u044C (\u0443\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0442\u044C)"
+  - EntryId: 89532940
+    SectionId: 69673941
+    Key: interactions.hide
+    Value: "\u0421\u043F\u0440\u044F\u0442\u0430\u0442\u044C\u0441\u044F"
+  - EntryId: 17034738
+    SectionId: 69673941
+    Key: interactions.unhide
+    Value: "\u0412\u044B\u0431\u0440\u0430\u0442\u044C\u0441\u044F"
+  - EntryId: 68821941
+    SectionId: 11317371
+    Key: objects.circuit
+    Value: "\u042D\u043B\u0435\u043A\u0442\u0440\u0438\u0447\u0435\u0441\u043A\u0430\u044F
+      \u0446\u0435\u043F\u044C"
+  - EntryId: 14979172
+    SectionId: 11317371
+    Key: objects.fusebox
+    Value: "\u0420\u0430\u0441\u043F\u0440\u0435\u0434\u0435\u043B\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439
+      \u0449\u0438\u0442"
+  - EntryId: 62776564
+    SectionId: 11317371
+    Key: objects.keypad
+    Value: "\u041A\u043B\u0430\u0432\u0438\u0430\u0442\u0443\u0440\u0430 (\u043A\u043E\u0434\u043E\u0432\u0430\u044F)"
+  - EntryId: 14413967
+    SectionId: 11317371
+    Key: objects.keycard
+    Value: "\u041A\u043B\u044E\u0447-\u043A\u0430\u0440\u0442\u0430"
+  - EntryId: 96136757
+    SectionId: 11317371
+    Key: objects.padlock
+    Value: "\u0412\u0438\u0441\u043E\u0447\u043D\u044B\u0439 \u0437\u0430\u043C\u043E\u043A"
+  - EntryId: 24142317
+    SectionId: 11317371
+    Key: objects.lever
+    Value: "\u0420\u044B\u0447\u0430\u0433"
+  - EntryId: 31363607
+    SectionId: 11317371
+    Key: objects.paneldoor
+    Value: "\u041B\u044E\u043A"
+  - EntryId: 67919224
+    SectionId: 11317371
+    Key: objects.door
+    Value: "\u0414\u0432\u0435\u0440\u044C"
+  - EntryId: 20417118
+    SectionId: 11317371
+    Key: objects.valve
+    Value: "\u0412\u0435\u043D\u0442\u0438\u043B\u044C"
+  - EntryId: 42204335
+    SectionId: 11317371
+    Key: objects.drawer
+    Value: "\u042F\u0449\u0438\u043A"
+  - EntryId: 10559435
+    SectionId: 11317371
+    Key: objects.trunk
+    Value: "\u0421\u0443\u043D\u0434\u0443\u043A"
+  - EntryId: 71847511
+    SectionId: 11317371
+    Key: objects.backpack
+    Value: "\u0420\u044E\u043A\u0437\u0430\u043A"
+  - EntryId: 38384735
+    SectionId: 11317371
+    Key: objects.crate
+    Value: "\u042F\u0449\u0438\u043A"
+  - EntryId: 83502262
+    SectionId: 11317371
+    Key: objects.barrel
+    Value: "\u0411\u043E\u0447\u043A\u0430"
+  - EntryId: 58655478
+    SectionId: 11317371
+    Key: objects.brick
+    Value: "\u041A\u0438\u0440\u043F\u0438\u0447"
+  - EntryId: 28035682
+    SectionId: 11317371
+    Key: objects.pushable
+    Value: "\u041C\u043E\u0436\u043D\u043E \u0442\u043E\u043B\u043A\u043D\u0443\u0442\u044C"
+  - EntryId: 32820278
+    SectionId: 11317371
+    Key: objects.ladder
+    Value: "\u041B\u0435\u0441\u0442\u043D\u0438\u0446\u0430"
+  - EntryId: 33180263
+    SectionId: 11317371
+    Key: objects.zipline
+    Value: "\u0417\u0438\u043F\u043B\u0430\u0439\u043D"
+  - EntryId: 88094677
+    SectionId: 11317371
+    Key: objects.paper
+    Value: "\u0411\u0443\u043C\u0430\u0433\u0430"
+  - EntryId: 63467271
+    SectionId: 11317371
+    Key: objects.chest
+    Value: "\u0421\u0443\u043D\u0434\u0443\u043A"
+  - EntryId: 64633838
+    SectionId: 11317371
+    Key: objects.lamp
+    Value: "\u041B\u0430\u043C\u043F\u0430"
+  - EntryId: 15905899
+    SectionId: 11317371
+    Key: objects.generator
+    Value: "\u0413\u0435\u043D\u0435\u0440\u0430\u0442\u043E\u0440"
+  - EntryId: 73080034
+    SectionId: 11317371
+    Key: objects.radio
+    Value: "\u0420\u0430\u0434\u0438\u043E"
+  - EntryId: 11138211
+    SectionId: 11317371
+    Key: objects.locker
+    Value: "\u0428\u043A\u0430\u0444\u0447\u0438\u043A"
+  - EntryId: 59323032
+    SectionId: 11317371
+    Key: objects.bed
+    Value: "\u041A\u0440\u043E\u0432\u0430\u0442\u044C"
+  - EntryId: 57301135
+    SectionId: 11317371
+    Key: objects.floodlight
+    Value: "\u041F\u0440\u043E\u0436\u0435\u043A\u0442\u043E\u0440"
+  - EntryId: 84384165
+    SectionId: 11317371
+    Key: objects.maze
+    Value: "\u041B\u0430\u0431\u0438\u0440\u0438\u043D\u0442-\u0433\u043E\u043B\u043E\u0432\u043E\u043B\u043E\u043C\u043A\u0430"
+  - EntryId: 24552614
+    SectionId: 11317371
+    Key: objects.refrigerator
+    Value: "\u0425\u043E\u043B\u043E\u0434\u0438\u043B\u044C\u043D\u0438\u043A"
+  - EntryId: 52372791
+    SectionId: 11317371
+    Key: objects.arm
+    Value: "\u041E\u043A\u0440\u043E\u0432\u0430\u0432\u043B\u0435\u043D\u043D\u0430\u044F
+      \u0440\u0443\u043A\u0430"
+  - EntryId: 94725535
+    SectionId: 78183135
+    Key: controls.name.exit
+    Value: "\u0412\u044B\u0445\u043E\u0434"
+  - EntryId: 62676786
+    SectionId: 78183135
+    Key: controls.name.close
+    Value: "\u0417\u0430\u043A\u0440\u044B\u0442\u044C"
+  - EntryId: 34189899
+    SectionId: 78183135
+    Key: controls.name.move
+    Value: "\u041F\u0435\u0440\u0435\u043C\u0435\u0441\u0442\u0438\u0442\u044C"
+  - EntryId: 70552896
+    SectionId: 78183135
+    Key: controls.name.rotate
+    Value: "\u041F\u043E\u0432\u0435\u0440\u043D\u0443\u0442\u044C"
+  - EntryId: 88288613
+    SectionId: 78183135
+    Key: controls.name.select
+    Value: "\u0412\u044B\u0431\u0440\u0430\u0442\u044C"
+  - EntryId: 58955362
+    SectionId: 78183135
+    Key: controls.name.zoom
+    Value: "\u041F\u0440\u0438\u0431\u043B\u0438\u0437\u0438\u0442\u044C"
+  - EntryId: 90823624
+    SectionId: 78183135
+    Key: controls.name.drop
+    Value: "\u0412\u044B\u0431\u0440\u043E\u0441\u0438\u0442\u044C"
+  - EntryId: 68512386
+    SectionId: 78183135
+    Key: controls.name.throw
+    Value: "\u0411\u0440\u043E\u0441\u0438\u0442\u044C"
+  - EntryId: 79525535
+    SectionId: 78183135
+    Key: controls.name.take
+    Value: "\u0412\u0437\u044F\u0442\u044C"
+  - EntryId: 71771340
+    SectionId: 78183135
+    Key: controls.name.read
+    Value: "\u041F\u0440\u043E\u0447\u0438\u0442\u0430\u0442\u044C"
+  - EntryId: 55932111
+    SectionId: 78183135
+    Key: controls.name.putback
+    Value: "\u0412\u0435\u0440\u043D\u0443\u0442\u044C"
+  - EntryId: 95942159
+    SectionId: 78183135
+    Key: controls.name.back
+    Value: "\u041D\u0430\u0437\u0430\u0434"
+  - EntryId: 46809840
+    SectionId: 51993595
+    Key: messages.backpack
+    Value: "\u0421\u043B\u043E\u0442\u044B \u0432\u0430\u0448\u0435\u0433\u043E \u0438\u043D\u0432\u0435\u043D\u0442\u0430\u0440\u044F
+      \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u044B."
+  - EntryId: 22626659
+    SectionId: 51993595
+    Key: messages.nofit
+    Value: "\u042D\u0442\u043E\u0442 \u043F\u0440\u0435\u0434\u043C\u0435\u0442 \u0441\u044E\u0434\u0430
+      \u043D\u0435 \u043F\u043E\u0434\u0445\u043E\u0434\u0438\u0442."
+  - EntryId: 10728042
+    SectionId: 51993595
+    Key: messages.objective.added
+    Value: "\u041D\u043E\u0432\u0430\u044F \u0437\u0430\u0434\u0430\u0447\u0430"
+  - EntryId: 20529774
+    SectionId: 51993595
+    Key: messages.objective.completed
+    Value: "\u0417\u0430\u0434\u0430\u0447\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0430"
+  - EntryId: 41489829
+    SectionId: 51993595
+    Key: messages.kindle.lighter
+    Value: "\u0427\u0442\u043E\u0431\u044B \u0437\u0430\u0436\u0435\u0447\u044C \u0441\u0432\u0435\u0447\u0443"
+  - EntryId: 27587268
+    SectionId: 51993595
+    Key: messages.no.canisters
+    Value: "\u041D\u0435\u0442 \u0451\u043C\u043A\u043E\u0441\u0442\u0435\u0439 \u0441
+      \u0442\u043E\u043F\u043B\u0438\u0432\u043E\u043C"
+  - EntryId: 20042218
+    SectionId: 51993595
+    Key: messages.notreq.canisters
+    Value: "\u0414\u043E\u0437\u0430\u043F\u0440\u0430\u0432\u043A\u0430 \u043D\u0435
+      \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044F"
+  - EntryId: 63376783
+    SectionId: 14790497
+    Key: papers.example
+    Value: "\u042D\u0442\u043E \u043F\u0440\u0438\u043C\u0435\u0440 \u0442\u0435\u043A\u0441\u0442\u0430
+      \u043D\u0430 \u0431\u0443\u043C\u0430\u0433\u0435 \u0434\u043B\u044F \u0434\u0435\u043C\u043E\u043D\u0441\u0442\u0440\u0430\u0446\u0438\u0438
+      \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u043E\u0441\u043C\u043E\u0442\u0440\u0430.
+      \u0412\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u043E\u0442\u043E\u0431\u0440\u0430\u0437\u0438\u0442\u044C
+      \u0442\u0435\u043A\u0441\u0442 \u043D\u0430 \u0431\u0443\u043C\u0430\u0433\u0435
+      \u0441 \u043F\u043E\u043C\u043E\u0449\u044C\u044E \u0442\u0435\u043A\u0441\u0442\u0443\u0440\u044B
+      \u0438\u043B\u0438 \u043F\u0435\u0440\u0435\u043F\u0438\u0441\u0430\u0442\u044C
+      \u0435\u0433\u043E \u043A\u0430\u043A \u0442\u0435\u043A\u0441\u0442 \u0434\u043B\u044F
+      \u043E\u0441\u043C\u043E\u0442\u0440\u0430.\r\n\r\n- \u041E\u0442 \u041F\u0430\u0442\u0440\u0438\u043A\u0430"
+  - EntryId: 24767859
+    SectionId: 14790497
+    Key: papers.crafting.ammo
+    Value: "\u041F\u0410\u0422\u0420\u041E\u041D\u042B 9MM\r\n\u0440\u0443\u043A\u043E\u0432\u043E\u0434\u0441\u0442\u0432\u043E
+      \u043F\u043E \u043A\u0440\u0430\u0444\u0442\u0443\r\n\r\n\u0420\u0435\u0446\u0435\u043F\u0442
+      \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u044F 10 \u043F\u0430\u0442\u0440\u043E\u043D\u043E\u0432
+      9mm. \u0414\u043B\u044F \u0438\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u044F
+      \u043E\u0434\u043D\u043E\u0433\u043E \u043F\u0438\u0441\u0442\u043E\u043B\u0435\u0442\u043D\u043E\u0433\u043E
+      \u043F\u0430\u0442\u0440\u043E\u043D\u0430 \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u043E
+      \u043E\u0431\u044A\u0435\u0434\u0438\u043D\u0438\u0442\u044C \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0435
+      \u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B:\r\n\r\n5x \u041F\u043E\u0440\u043E\u0445\r\n1x
+      \u041C\u0435\u0442\u0430\u043B\u043B\u043E\u043B\u043E\u043C"
+  - EntryId: 96893407
+    SectionId: 14790497
+    Key: papers.bloody
+    Value: "\u0415\u0421\u041B\u0418 \u0412\u042B \u0427\u0418\u0422\u0410\u0415\u0422\u0415
+      \u042D\u0422\u041E\r\n\u041D\u0415 \u041E\u0411\u041E\u0420\u0410\u0427\u0418\u0412\u0410\u0419\u0422\u0415\u0421\u042C"
+  - EntryId: 18324474
+    SectionId: 91710314
+    Key: inventory.context.use
+    Value: "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C"
+  - EntryId: 72200280
+    SectionId: 91710314
+    Key: inventory.context.examine
+    Value: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C"
+  - EntryId: 29617865
+    SectionId: 91710314
+    Key: inventory.context.combine
+    Value: "\u041E\u0431\u044A\u0435\u0434\u0438\u043D\u0438\u0442\u044C"
+  - EntryId: 23266649
+    SectionId: 91710314
+    Key: inventory.context.shortcut
+    Value: "\u0411\u044B\u0441\u0442\u0440\u044B\u0439 \u0434\u043E\u0441\u0442\u0443\u043F"
+  - EntryId: 31139243
+    SectionId: 91710314
+    Key: inventory.context.drop
+    Value: "\u0412\u044B\u0431\u0440\u043E\u0441\u0438\u0442\u044C"
+  - EntryId: 41837702
+    SectionId: 91710314
+    Key: inventory.context.discard
+    Value: "\u0423\u043D\u0438\u0447\u0442\u043E\u0436\u0438\u0442\u044C"
+  - EntryId: 35466172
+    SectionId: 91710314
+    Key: inventory.prompt.shortcut
+    Value: "\u041D\u0430\u0436\u043C\u0438\u0442\u0435 \u043A\u043B\u0430\u0432\u0438\u0448\u0443
+      \u0431\u044B\u0441\u0442\u0440\u043E\u0433\u043E \u0434\u043E\u0441\u0442\u0443\u043F\u0430"
+  - EntryId: 85741619
+    SectionId: 91710314
+    Key: inventory.prompt.combine
+    Value: "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u043F\u0440\u0435\u0434\u043C\u0435\u0442"
+  - EntryId: 86483556
+    SectionId: 24283221
+    Key: item.title.flashlight
+    Value: "\u0424\u043E\u043D\u0430\u0440\u0438\u043A"
+  - EntryId: 66394995
+    SectionId: 24283221
+    Key: item.description.flashlight
+    Value: "\u041C\u043E\u0449\u043D\u044B\u0439 \u043B\u0443\u0447 \u0441\u0432\u0435\u0442\u0430
+      \u0432 \u043F\u0440\u043E\u0447\u043D\u043E\u043C \u043C\u0435\u0442\u0430\u043B\u043B\u0438\u0447\u0435\u0441\u043A\u043E\u043C
+      \u043A\u043E\u0440\u043F\u0443\u0441\u0435. \u0418\u0434\u0435\u0430\u043B\u044C\u043D\u043E
+      \u043F\u043E\u0434\u0445\u043E\u0434\u0438\u0442 \u0434\u043B\u044F \u043E\u0441\u0432\u0435\u0449\u0435\u043D\u0438\u044F
+      \u0442\u0451\u043C\u043D\u044B\u0445 \u043C\u0435\u0441\u0442 \u0438 \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0435\u043D\u0438\u044F
+      \u0441\u043A\u0440\u044B\u0442\u044B\u0445 \u043E\u043F\u0430\u0441\u043D\u043E\u0441\u0442\u0435\u0439."
+  - EntryId: 27479224
+    SectionId: 24283221
+    Key: item.title.camcorder
+    Value: "\u041A\u0430\u043C\u0435\u0440\u0430"
+  - EntryId: 13199872
+    SectionId: 24283221
+    Key: item.description.camcorder
+    Value: "\u041E\u0441\u0432\u0435\u0442\u0438\u0442\u0435 \u0442\u044C\u043C\u0443.
+      \u0411\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u044F \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438
+      \u043D\u043E\u0447\u043D\u043E\u0433\u043E \u0432\u0438\u0434\u0435\u043D\u0438\u044F
+      \u044D\u0442\u0430 \u043A\u0430\u043C\u0435\u0440\u0430 \u0438\u0434\u0435\u0430\u043B\u044C\u043D\u043E
+      \u043F\u043E\u0434\u0445\u043E\u0434\u0438\u0442 \u0434\u043B\u044F \u0438\u0441\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u044F
+      \u0438 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F
+      \u0432 \u0443\u0441\u043B\u043E\u0432\u0438\u044F\u0445 \u0441\u043B\u0430\u0431\u043E\u0433\u043E
+      \u043E\u0441\u0432\u0435\u0449\u0435\u043D\u0438\u044F."
+  - EntryId: 52214045
+    SectionId: 24283221
+    Key: item.title.lantern
+    Value: "\u0424\u043E\u043D\u0430\u0440\u044C"
+  - EntryId: 10453279
+    SectionId: 24283221
+    Key: item.description.lantern
+    Value: "\u041D\u0430\u0434\u0451\u0436\u043D\u044B\u0439 \u0438\u0441\u0442\u043E\u0447\u043D\u0438\u043A
+      \u0441\u0432\u0435\u0442\u0430 \u0434\u043B\u044F \u043B\u044E\u0431\u043E\u0433\u043E
+      \u0438\u0441\u043A\u0430\u0442\u0435\u043B\u044F \u043F\u0440\u0438\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0439.
+      \u041F\u043B\u0430\u043C\u044F \u0444\u043E\u043D\u0430\u0440\u044F \u044F\u0440\u043A\u043E\u0435
+      \u0438 \u0440\u043E\u0432\u043D\u043E\u0435, \u0434\u0430\u044E\u0449\u0435\u0435
+      \u0443\u0441\u043F\u043E\u043A\u0430\u0438\u0432\u0430\u044E\u0449\u0438\u0439
+      \u0441\u0432\u0435\u0442, \u043E\u0437\u0430\u0440\u044F\u044E\u0449\u0438\u0439
+      \u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0441\u0442\u0432\u043E \u0432\u043E\u043A\u0440\u0443\u0433."
+  - EntryId: 58743985
+    SectionId: 24283221
+    Key: item.title.lighter
+    Value: "\u0417\u0430\u0436\u0438\u0433\u0430\u043B\u043A\u0430"
+  - EntryId: 35147977
+    SectionId: 24283221
+    Key: item.description.lighter
+    Value: "\u041D\u0430\u0434\u0451\u0436\u043D\u044B\u0439 \u0438\u0441\u0442\u043E\u0447\u043D\u0438\u043A
+      \u043E\u0433\u043D\u044F \u0434\u043B\u044F \u043B\u044E\u0431\u043E\u0433\u043E
+      \u0438\u0441\u043A\u0430\u0442\u0435\u043B\u044F \u043F\u0440\u0438\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0439.
+      \u0411\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u044F \u043A\u043E\u043C\u043F\u0430\u043A\u0442\u043D\u043E\u043C\u0443
+      \u0440\u0430\u0437\u043C\u0435\u0440\u0443 \u0438 \u043F\u0440\u043E\u0441\u0442\u043E\u0439
+      \u043A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u0438 \u0437\u0430\u0436\u0438\u0433\u0430\u043B\u043A\u0430
+      \u2014 \u043E\u0431\u044F\u0437\u0430\u0442\u0435\u043B\u044C\u043D\u044B\u0439
+      \u043F\u0440\u0435\u0434\u043C\u0435\u0442."
+  - EntryId: 47759722
+    SectionId: 24283221
+    Key: item.title.candle
+    Value: "\u0421\u0432\u0435\u0447\u0430"
+  - EntryId: 88800642
+    SectionId: 24283221
+    Key: item.description.candle
+    Value: "\u041A\u043E\u043C\u043F\u0430\u043A\u0442\u043D\u044B\u0439, \u043D\u043E
+      \u0446\u0435\u043D\u043D\u044B\u0439 \u0438\u0441\u0442\u043E\u0447\u043D\u0438\u043A
+      \u0441\u0432\u0435\u0442\u0430 \u0438 \u0442\u0435\u043F\u043B\u0430 \u0432
+      \u0442\u0435\u043C\u043D\u043E\u0442\u0435, \u043E\u0431\u043B\u0430\u0434\u0430\u044E\u0449\u0438\u0439
+      \u0434\u043B\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u043C \u0432\u0440\u0435\u043C\u0435\u043D\u0435\u043C
+      \u0433\u043E\u0440\u0435\u043D\u0438\u044F."
+  - EntryId: 64813928
+    SectionId: 24283221
+    Key: item.title.axe
+    Value: "\u0422\u043E\u043F\u043E\u0440"
+  - EntryId: 81754557
+    SectionId: 24283221
+    Key: item.description.axe
+    Value: "\u041F\u0440\u043E\u0447\u043D\u044B\u0439 \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442
+      \u0441 \u0434\u0435\u0440\u0435\u0432\u044F\u043D\u043D\u043E\u0439 \u0440\u0443\u043A\u043E\u044F\u0442\u044C\u044E
+      \u0438 \u043E\u0441\u0442\u0440\u044B\u043C \u043C\u0435\u0442\u0430\u043B\u043B\u0438\u0447\u0435\u0441\u043A\u0438\u043C
+      \u043B\u0435\u0437\u0432\u0438\u0435\u043C. \u0418\u0434\u0435\u0430\u043B\u0435\u043D
+      \u0434\u043B\u044F \u0440\u0443\u0431\u043A\u0438 \u0438 \u043F\u043E\u0442\u0435\u043D\u0446\u0438\u0430\u043B\u044C\u043D\u043E\u0439
+      \u0441\u0430\u043C\u043E\u043E\u0431\u043E\u0440\u043E\u043D\u044B."
+  - EntryId: 29595890
+    SectionId: 24283221
+    Key: item.title.pocketknife
+    Value: "\u041A\u0430\u0440\u043C\u0430\u043D\u043D\u044B\u0439 \u043D\u043E\u0436"
+  - EntryId: 10912878
+    SectionId: 24283221
+    Key: item.description.pocketknife
+    Value: "\u041A\u043E\u043C\u043F\u0430\u043A\u0442\u043D\u043E\u0435 \u0441\u043A\u043B\u0430\u0434\u043D\u043E\u0435
+      \u043B\u0435\u0437\u0432\u0438\u0435, \u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0430\u043B\u044C\u043D\u043E\u0435
+      \u0434\u043B\u044F \u0440\u0435\u0437\u043A\u0438 \u0438 \u0437\u0430\u0449\u0438\u0442\u044B
+      \u043D\u0430 \u0431\u043B\u0438\u0437\u043A\u043E\u0439 \u0434\u0438\u0441\u0442\u0430\u043D\u0446\u0438\u0438.
+      \u0412\u0441\u0435\u0433\u0434\u0430 \u043F\u043E\u043B\u0435\u0437\u043D\u043E
+      \u0438\u043C\u0435\u0442\u044C \u043F\u043E\u0434 \u0440\u0443\u043A\u043E\u0439."
+  - EntryId: 53741014
+    SectionId: 24283221
+    Key: item.title.pistol
+    Value: "\u041F\u0438\u0441\u0442\u043E\u043B\u0435\u0442"
+  - EntryId: 19660599
+    SectionId: 24283221
+    Key: item.description.pistol
+    Value: "\u041D\u0430\u0434\u0451\u0436\u043D\u043E\u0435 \u043E\u0440\u0443\u0436\u0438\u0435
+      \u0434\u043B\u044F \u0431\u043B\u0438\u0436\u043D\u0435\u0433\u043E \u0431\u043E\u044F.
+      \u042D\u0442\u0430 \u043C\u043E\u0449\u043D\u0430\u044F \u043F\u0443\u0448\u043A\u0430
+      \u043E\u0431\u043B\u0430\u0434\u0430\u0435\u0442 \u0441\u0435\u0440\u044C\u0451\u0437\u043D\u043E\u0439
+      \u0441\u0438\u043B\u043E\u0439 \u0438 \u043C\u043E\u0436\u0435\u0442 \u0441\u043F\u0430\u0441\u0442\u0438
+      \u0436\u0438\u0437\u043D\u044C \u0432 \u043E\u043F\u0430\u0441\u043D\u044B\u0445
+      \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u044F\u0445."
+  - EntryId: 61872019
+    SectionId: 24283221
+    Key: item.title.thermometer
+    Value: "\u0422\u0435\u0440\u043C\u043E\u043C\u0435\u0442\u0440"
+  - EntryId: 78303727
+    SectionId: 24283221
+    Key: item.description.thermometer
+    Value: "\u0418\u0437\u043C\u0435\u0440\u044F\u0435\u0442 \u0442\u0435\u043C\u043F\u0435\u0440\u0430\u0442\u0443\u0440\u0443
+      \u043E\u043A\u0440\u0443\u0436\u0430\u044E\u0449\u0435\u0439 \u0441\u0440\u0435\u0434\u044B.
+      \u041F\u043E\u043B\u0435\u0437\u0435\u043D \u0434\u043B\u044F \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0435\u043D\u0438\u044F
+      \u0438\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u0439 \u0432 \u043E\u043A\u0440\u0443\u0436\u0430\u044E\u0449\u0435\u0439
+      \u0441\u0440\u0435\u0434\u0435."
+  - EntryId: 58318911
+    SectionId: 24283221
+    Key: item.title.emfmeter
+    Value: "EMF-\u0434\u0435\u0442\u0435\u043A\u0442\u043E\u0440"
+  - EntryId: 33905725
+    SectionId: 24283221
+    Key: item.description.emfmeter
+    Value: "\u041E\u0431\u043D\u0430\u0440\u0443\u0436\u0438\u0432\u0430\u0435\u0442
+      \u044D\u043B\u0435\u043A\u0442\u0440\u043E\u043C\u0430\u0433\u043D\u0438\u0442\u043D\u044B\u0435
+      \u043F\u043E\u043B\u044F. \u041D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C
+      \u0434\u043B\u044F \u0432\u044B\u044F\u0432\u043B\u0435\u043D\u0438\u044F \u043F\u0430\u0440\u0430\u043D\u043E\u0440\u043C\u0430\u043B\u044C\u043D\u043E\u0439
+      \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438 \u0438\u043B\u0438
+      \u044D\u043B\u0435\u043A\u0442\u0440\u043E\u043D\u043D\u044B\u0445 \u043F\u043E\u043C\u0435\u0445.
+      \u041E\u0431\u044F\u0437\u0430\u0442\u0435\u043B\u044C\u043D\u044B\u0439 \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442
+      \u0434\u043B\u044F \u043E\u0445\u043E\u0442\u043D\u0438\u043A\u043E\u0432 \u0437\u0430
+      \u043F\u0440\u0438\u0432\u0438\u0434\u0435\u043D\u0438\u044F\u043C\u0438 \u0438
+      \u0438\u0441\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u0435\u043B\u0435\u0439."
+  - EntryId: 34833445
+    SectionId: 24283221
+    Key: item.title.firstaidkit
+    Value: "\u0410\u043F\u0442\u0435\u0447\u043A\u0430"
+  - EntryId: 95076873
+    SectionId: 24283221
+    Key: item.description.firstaidkit
+    Value: "\u0412\u0430\u0436\u043D\u044B\u0439 \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442
+      \u0432\u044B\u0436\u0438\u0432\u0430\u043D\u0438\u044F"
+  - EntryId: 44235869
+    SectionId: 24283221
+    Key: item.title.medicaloil
+    Value: "\u041B\u0435\u0447\u0435\u0431\u043D\u043E\u0435 \u043C\u0430\u0441\u043B\u043E"
+  - EntryId: 59674130
+    SectionId: 24283221
+    Key: item.description.medicaloil
+    Value: "\u042D\u0444\u0444\u0435\u043A\u0442\u0438\u0432\u043D\u043E\u0435, \u0431\u044B\u0441\u0442\u0440\u043E\u0434\u0435\u0439\u0441\u0442\u0432\u0443\u044E\u0449\u0435\u0435
+      \u043B\u0435\u043A\u0430\u0440\u0441\u0442\u0432\u043E. \u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u0442\u0441\u044F
+      \u0434\u043B\u044F \u043E\u0431\u043B\u0435\u0433\u0447\u0435\u043D\u0438\u044F
+      \u0440\u0430\u0437\u043B\u0438\u0447\u043D\u044B\u0445 \u043D\u0435\u0434\u0443\u0433\u043E\u0432,
+      \u0443\u0441\u043A\u043E\u0440\u0435\u043D\u0438\u044F \u0432\u044B\u0437\u0434\u043E\u0440\u043E\u0432\u043B\u0435\u043D\u0438\u044F
+      \u0438 \u043F\u043E\u0432\u044B\u0448\u0435\u043D\u0438\u044F \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u044F
+      \u0432 \u043A\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435 \u043C\u043E\u043C\u0435\u043D\u0442\u044B."
+  - EntryId: 39924894
+    SectionId: 24283221
+    Key: item.title.medicalherb
+    Value: "\u041B\u0435\u0447\u0435\u0431\u043D\u0430\u044F \u0442\u0440\u0430\u0432\u0430"
+  - EntryId: 10202328
+    SectionId: 24283221
+    Key: item.description.medicalherb
+    Value: "\u0420\u0435\u0434\u043A\u0430\u044F \u0438 \u043C\u043E\u0449\u043D\u0430\u044F
+      \u0444\u043B\u043E\u0440\u0430 \u0441 \u0446\u0435\u043B\u0435\u0431\u043D\u044B\u043C\u0438
+      \u0441\u0432\u043E\u0439\u0441\u0442\u0432\u0430\u043C\u0438. \u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u0442\u0441\u044F
+      \u0434\u043B\u044F \u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u044F
+      \u0443\u043C\u0435\u0440\u0435\u043D\u043D\u043E\u0433\u043E \u043A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u0430
+      \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u044F \u0438\u043B\u0438 \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u044F
+      \u043C\u043E\u0449\u043D\u044B\u0445 \u043B\u0435\u0447\u0435\u0431\u043D\u044B\u0445
+      \u0437\u0435\u043B\u0438\u0439 \u0438 \u043B\u0435\u043A\u0430\u0440\u0441\u0442\u0432."
+  - EntryId: 63867823
+    SectionId: 24283221
+    Key: item.title.healingpotion
+    Value: "\u0426\u0435\u043B\u0435\u0431\u043D\u043E\u0435 \u0437\u0435\u043B\u044C\u0435"
+  - EntryId: 42067171
+    SectionId: 24283221
+    Key: item.description.healingpotion
+    Value: "\u041C\u043E\u0449\u043D\u043E\u0435 \u0441\u043D\u0430\u0434\u043E\u0431\u044C\u0435"
+  - EntryId: 16895552
+    SectionId: 24283221
+    Key: item.title.alkalinebattery
+    Value: "\u0429\u0435\u043B\u043E\u0447\u043D\u0430\u044F \u0431\u0430\u0442\u0430\u0440\u0435\u044F"
+  - EntryId: 88078736
+    SectionId: 24283221
+    Key: item.description.alkalinebattery
+    Value: "\u041A\u043E\u043C\u043F\u0430\u043A\u0442\u043D\u044B\u0439 \u0438 \u043D\u0430\u0434\u0451\u0436\u043D\u044B\u0439
+      \u0438\u0441\u0442\u043E\u0447\u043D\u0438\u043A \u044D\u043D\u0435\u0440\u0433\u0438\u0438,
+      \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0438\u0432\u0430\u044E\u0449\u0438\u0439
+      \u0434\u043B\u0438\u0442\u0435\u043B\u044C\u043D\u0443\u044E \u0440\u0430\u0431\u043E\u0442\u0443.
+      \u0418\u0434\u0435\u0430\u043B\u044C\u043D\u043E \u043F\u043E\u0434\u0445\u043E\u0434\u0438\u0442
+      \u0434\u043B\u044F \u043F\u0438\u0442\u0430\u043D\u0438\u044F \u0444\u043E\u043D\u0430\u0440\u0438\u043A\u043E\u0432,
+      \u0440\u0430\u0434\u0438\u043E \u0438 \u0434\u0440\u0443\u0433\u0438\u0445
+      \u0432\u0430\u0436\u043D\u044B\u0445 \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u043E\u0432."
+  - EntryId: 31902149
+    SectionId: 24283221
+    Key: item.title.camerabattery
+    Value: "\u0411\u0430\u0442\u0430\u0440\u0435\u044F \u0434\u043B\u044F \u043A\u0430\u043C\u0435\u0440\u044B"
+  - EntryId: 14597581
+    SectionId: 24283221
+    Key: item.description.camerabattery
+    Value: "\u0414\u0435\u0440\u0436\u0438\u0442\u0435 \u0432\u0430\u0448\u0443 \u043A\u0430\u043C\u0435\u0440\u0443
+      \u0437\u0430\u0440\u044F\u0436\u0435\u043D\u043D\u043E\u0439 \u0438 \u0433\u043E\u0442\u043E\u0432\u043E\u0439
+      \u043A \u0440\u0430\u0431\u043E\u0442\u0435 \u0441 \u044D\u0442\u043E\u0439
+      \u043D\u0430\u0434\u0451\u0436\u043D\u043E\u0439 \u0431\u0430\u0442\u0430\u0440\u0435\u0435\u0439.
+      \u0421\u043E\u0437\u0434\u0430\u043D\u0430 \u0434\u043B\u044F \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F
+      \u0434\u043B\u0438\u0442\u0435\u043B\u044C\u043D\u043E\u0439 \u0440\u0430\u0431\u043E\u0442\u044B."
+  - EntryId: 68908540
+    SectionId: 24283221
+    Key: item.title.petroloil
+    Value: "\u041A\u0435\u0440\u043E\u0441\u0438\u043D"
+  - EntryId: 10772658
+    SectionId: 24283221
+    Key: item.description.petroloil
+    Value: "\u041E\u0447\u0438\u0449\u0435\u043D\u043D\u044B\u0439 \u043D\u0435\u0444\u0442\u0435\u043F\u0440\u043E\u0434\u0443\u043A\u0442,
+      \u043E\u0431\u044B\u0447\u043D\u043E \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u043C\u044B\u0439
+      \u0432 \u043A\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u0442\u043E\u043F\u043B\u0438\u0432\u0430
+      \u0434\u043B\u044F \u0444\u043E\u043D\u0430\u0440\u0435\u0439 \u0438 \u043B\u0430\u043C\u043F.
+      \u042D\u0442\u043E \u043F\u0440\u043E\u0437\u0440\u0430\u0447\u043D\u0430\u044F
+      \u0431\u0435\u0441\u0446\u0432\u0435\u0442\u043D\u0430\u044F \u0436\u0438\u0434\u043A\u043E\u0441\u0442\u044C,
+      \u0434\u0430\u044E\u0449\u0430\u044F \u044F\u0440\u043A\u043E\u0435, \u0440\u043E\u0432\u043D\u043E\u0435
+      \u043F\u043B\u0430\u043C\u044F \u043F\u0440\u0438 \u0433\u043E\u0440\u0435\u043D\u0438\u0438."
+  - EntryId: 26904931
+    SectionId: 24283221
+    Key: item.title.pistolammo
+    Value: "\u041F\u0430\u0442\u0440\u043E\u043D\u044B \u0434\u043B\u044F \u043F\u0438\u0441\u0442\u043E\u043B\u0435\u0442\u0430"
+  - EntryId: 10323082
+    SectionId: 24283221
+    Key: item.description.pistolammo
+    Value: "\u0421\u043E\u0432\u043C\u0435\u0441\u0442\u0438\u043C\u044B \u0441 \u0440\u0430\u0437\u043B\u0438\u0447\u043D\u044B\u043C\u0438
+      \u0432\u0438\u0434\u0430\u043C\u0438 \u043E\u0433\u043D\u0435\u0441\u0442\u0440\u0435\u043B\u044C\u043D\u043E\u0433\u043E
+      \u043E\u0440\u0443\u0436\u0438\u044F. \u0411\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u044F
+      \u043A\u043E\u043C\u043F\u0430\u043A\u0442\u043D\u043E\u043C\u0443 \u0440\u0430\u0437\u043C\u0435\u0440\u0443
+      \u0438 \u0432\u044B\u0441\u043E\u043A\u043E\u0439 \u043E\u0441\u0442\u0430\u043D\u0430\u0432\u043B\u0438\u0432\u0430\u044E\u0449\u0435\u0439
+      \u0441\u0438\u043B\u0435 \u043F\u0430\u0442\u0440\u043E\u043D\u044B 9mm \u0438\u0434\u0435\u0430\u043B\u044C\u043D\u044B
+      \u0434\u043B\u044F \u0431\u043B\u0438\u0436\u043D\u0435\u0433\u043E \u0431\u043E\u044F."
+  - EntryId: 89377779
+    SectionId: 24283221
+    Key: item.title.pistolflashlight
+    Value: "\u0422\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u0444\u043E\u043D\u0430\u0440\u044C
+      \u0434\u043B\u044F \u043F\u0438\u0441\u0442\u043E\u043B\u0435\u0442\u0430"
+  - EntryId: 31912480
+    SectionId: 24283221
+    Key: item.description.pistolflashlight
+    Value: "\u041E\u0441\u0432\u0435\u0442\u0438\u0442\u0435 \u043B\u044E\u0431\u0443\u044E
+      \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u044E \u0441 \u044D\u0442\u0438\u043C
+      \u0442\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u043C \u0430\u043A\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u043E\u043C
+      \u0434\u043B\u044F \u0432\u0430\u0448\u0435\u0433\u043E \u043F\u0438\u0441\u0442\u043E\u043B\u0435\u0442\u0430.
+      \u041E\u043D \u043F\u043E\u0434\u0441\u0432\u0435\u0447\u0438\u0432\u0430\u0435\u0442
+      \u0432\u0430\u0448\u0443 \u0446\u0435\u043B\u044C \u0438 \u0432\u044B\u044F\u0432\u043B\u044F\u0435\u0442
+      \u0441\u043A\u0440\u044B\u0442\u044B\u0435 \u043E\u043F\u0430\u0441\u043D\u043E\u0441\u0442\u0438
+      \u0432 \u0442\u0435\u043C\u043D\u043E\u0442\u0435."
+  - EntryId: 25768964
+    SectionId: 24283221
+    Key: item.title.key01
+    Value: "\u041A\u043B\u044E\u0447 01"
+  - EntryId: 54686469
+    SectionId: 24283221
+    Key: item.description.key01
+    Value: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439, \u043D\u043E \u0437\u0430\u0433\u0430\u0434\u043E\u0447\u043D\u044B\u0439
+      \u043A\u043B\u044E\u0447 \u0441 \u043D\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043D\u044B\u043C
+      \u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435\u043C. \u0414\u0435\u0440\u0436\u0438\u0442\u0435
+      \u0435\u0433\u043E \u043F\u0440\u0438 \u0441\u0435\u0431\u0435 \u2014 \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E,
+      \u043E\u043D \u043E\u0442\u043A\u0440\u043E\u0435\u0442 \u0434\u0432\u0435\u0440\u0438,
+      \u0441\u0443\u043D\u0434\u0443\u043A\u0438 \u0438\u043B\u0438 \u0435\u0449\u0451
+      \u043D\u0435 \u0440\u0430\u0437\u0433\u0430\u0434\u0430\u043D\u043D\u044B\u0435
+      \u0441\u0435\u043A\u0440\u0435\u0442\u044B."
+  - EntryId: 77523233
+    SectionId: 24283221
+    Key: item.title.key02
+    Value: "\u041A\u043B\u044E\u0447 02"
+  - EntryId: 93838456
+    SectionId: 24283221
+    Key: item.description.key02
+    Value: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439, \u043D\u043E \u0437\u0430\u0433\u0430\u0434\u043E\u0447\u043D\u044B\u0439
+      \u043A\u043B\u044E\u0447 \u0441 \u043D\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043D\u044B\u043C
+      \u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435\u043C. \u0414\u0435\u0440\u0436\u0438\u0442\u0435
+      \u0435\u0433\u043E \u043F\u0440\u0438 \u0441\u0435\u0431\u0435 \u2014 \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E,
+      \u043E\u043D \u043E\u0442\u043A\u0440\u043E\u0435\u0442 \u0434\u0432\u0435\u0440\u0438,
+      \u0441\u0443\u043D\u0434\u0443\u043A\u0438 \u0438\u043B\u0438 \u0435\u0449\u0451
+      \u043D\u0435 \u0440\u0430\u0437\u0433\u0430\u0434\u0430\u043D\u043D\u044B\u0435
+      \u0441\u0435\u043A\u0440\u0435\u0442\u044B."
+  - EntryId: 85398988
+    SectionId: 24283221
+    Key: item.title.key03
+    Value: "\u041A\u043B\u044E\u0447 03"
+  - EntryId: 95447991
+    SectionId: 24283221
+    Key: item.description.key03
+    Value: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439, \u043D\u043E \u0437\u0430\u0433\u0430\u0434\u043E\u0447\u043D\u044B\u0439
+      \u043A\u043B\u044E\u0447 \u0441 \u043D\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043D\u044B\u043C
+      \u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435\u043C. \u0414\u0435\u0440\u0436\u0438\u0442\u0435
+      \u0435\u0433\u043E \u043F\u0440\u0438 \u0441\u0435\u0431\u0435 \u2014 \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E,
+      \u043E\u043D \u043E\u0442\u043A\u0440\u043E\u0435\u0442 \u0434\u0432\u0435\u0440\u0438,
+      \u0441\u0443\u043D\u0434\u0443\u043A\u0438 \u0438\u043B\u0438 \u0435\u0449\u0451
+      \u043D\u0435 \u0440\u0430\u0437\u0433\u0430\u0434\u0430\u043D\u043D\u044B\u0435
+      \u0441\u0435\u043A\u0440\u0435\u0442\u044B."
+  - EntryId: 68643809
+    SectionId: 24283221
+    Key: item.title.key04
+    Value: "\u041A\u043B\u044E\u0447 04"
+  - EntryId: 94144278
+    SectionId: 24283221
+    Key: item.description.key04
+    Value: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439, \u043D\u043E \u0437\u0430\u0433\u0430\u0434\u043E\u0447\u043D\u044B\u0439
+      \u043A\u043B\u044E\u0447 \u0441 \u043D\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043D\u044B\u043C
+      \u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435\u043C. \u0414\u0435\u0440\u0436\u0438\u0442\u0435
+      \u0435\u0433\u043E \u043F\u0440\u0438 \u0441\u0435\u0431\u0435 \u2014 \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E,
+      \u043E\u043D \u043E\u0442\u043A\u0440\u043E\u0435\u0442 \u0434\u0432\u0435\u0440\u0438,
+      \u0441\u0443\u043D\u0434\u0443\u043A\u0438 \u0438\u043B\u0438 \u0435\u0449\u0451
+      \u043D\u0435 \u0440\u0430\u0437\u0433\u0430\u0434\u0430\u043D\u043D\u044B\u0435
+      \u0441\u0435\u043A\u0440\u0435\u0442\u044B."
+  - EntryId: 68278997
+    SectionId: 24283221
+    Key: item.title.keys
+    Value: "\u0421\u0432\u044F\u0437\u043A\u0430 \u043A\u043B\u044E\u0447\u0435\u0439"
+  - EntryId: 50121884
+    SectionId: 24283221
+    Key: item.description.keys
+    Value: "\u041D\u0430\u0431\u043E\u0440 \u043C\u0435\u0442\u0430\u043B\u043B\u0438\u0447\u0435\u0441\u043A\u0438\u0445
+      \u043A\u043B\u044E\u0447\u0435\u0439 \u043D\u0430 \u043A\u043E\u043B\u044C\u0446\u0435.
+      \u041E\u0442\u043A\u0440\u044B\u0432\u0430\u044E\u0442 \u0440\u0430\u0437\u043B\u0438\u0447\u043D\u044B\u0435
+      \u0437\u0430\u043C\u043A\u0438. \u041D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u044B
+      \u0434\u043B\u044F \u0434\u043E\u0441\u0442\u0443\u043F\u0430 \u0438 \u0438\u0441\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u044F."
+  - EntryId: 90527509
+    SectionId: 24283221
+    Key: item.title.lockpick
+    Value: "\u041E\u0442\u043C\u044B\u0447\u043A\u0430"
+  - EntryId: 45644899
+    SectionId: 24283221
+    Key: item.description.lockpick
+    Value: "\u041F\u043E\u043B\u0435\u0437\u043D\u044B\u0439 \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442
+      \u0434\u043B\u044F \u043B\u044E\u0431\u043E\u0433\u043E \u0438\u0441\u043A\u0430\u0442\u0435\u043B\u044F
+      \u043F\u0440\u0438\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0439. \u041E\u0442\u043C\u044B\u0447\u043A\u0430
+      \u043C\u043E\u0436\u0435\u0442 \u043E\u0442\u043A\u0440\u044B\u0442\u044C \u0440\u0430\u0437\u043B\u0438\u0447\u043D\u044B\u0435
+      \u0437\u0430\u043C\u043A\u0438 \u0438 \u0434\u0432\u0435\u0440\u0438."
+  - EntryId: 34472722
+    SectionId: 24283221
+    Key: item.title.fuse
+    Value: "\u041F\u0440\u0435\u0434\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u0435\u043B\u044C"
+  - EntryId: 94677487
+    SectionId: 24283221
+    Key: item.description.fuse
+    Value: "\u041D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u044B\u0439 \u043F\u0440\u0435\u0434\u043C\u0435\u0442
+      \u0434\u043B\u044F \u043F\u043E\u0447\u0438\u043D\u043A\u0438 \u044D\u043B\u0435\u043A\u0442\u0440\u0438\u0447\u0435\u0441\u043A\u043E\u0433\u043E
+      \u043E\u0431\u043E\u0440\u0443\u0434\u043E\u0432\u0430\u043D\u0438\u044F \u0438
+      \u043F\u0438\u0442\u0430\u043D\u0438\u044F \u043C\u0435\u0445\u0430\u043D\u0438\u0437\u043C\u043E\u0432.
+      \u0411\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u044F \u043A\u043E\u043C\u043F\u0430\u043A\u0442\u043D\u043E\u043C\u0443
+      \u0440\u0430\u0437\u043C\u0435\u0440\u0443 \u0435\u0433\u043E \u043B\u0435\u0433\u043A\u043E
+      \u043D\u043E\u0441\u0438\u0442\u044C \u0432 \u0438\u043D\u0432\u0435\u043D\u0442\u0430\u0440\u0435."
+  - EntryId: 79554516
+    SectionId: 24283221
+    Key: item.title.valve
+    Value: "\u0412\u0435\u043D\u0442\u0438\u043B\u044C"
+  - EntryId: 36922670
+    SectionId: 24283221
+    Key: item.description.valve
+    Value: "\u041D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u044B\u0439 \u043A\u043E\u043C\u043F\u043E\u043D\u0435\u043D\u0442
+      \u0434\u043B\u044F \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F
+      \u043F\u043E\u0442\u043E\u043A\u043E\u043C \u0436\u0438\u0434\u043A\u043E\u0441\u0442\u0435\u0439
+      \u0438 \u0433\u0430\u0437\u043E\u0432 \u0432 \u0442\u0440\u0443\u0431\u0430\u0445
+      \u0438 \u043C\u0435\u0445\u0430\u043D\u0438\u0437\u043C\u0430\u0445."
+  - EntryId: 95253859
+    SectionId: 24283221
+    Key: item.title.vhscassette
+    Value: "VHS-\u043A\u0430\u0441\u0441\u0435\u0442\u0430"
+  - EntryId: 19573478
+    SectionId: 24283221
+    Key: item.description.vhscassette
+    Value: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435: {name}\r\n\u041A\u043B\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043A\u0438\u0439,
+      \u0434\u043E\u043B\u0433\u043E\u0432\u0435\u0447\u043D\u044B\u0439 \u0444\u043E\u0440\u043C\u0430\u0442
+      \u0434\u043B\u044F \u0432\u0438\u0434\u0435\u043E\u0437\u0430\u043F\u0438\u0441\u0438,
+      \u0430\u0440\u0445\u0438\u0432\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F
+      \u0432\u043E\u0441\u043F\u043E\u043C\u0438\u043D\u0430\u043D\u0438\u0439 \u0438\u043B\u0438
+      \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F
+      \u0432\u0430\u0436\u043D\u044B\u0445 \u0441\u043E\u0431\u044B\u0442\u0438\u0439."
+  - EntryId: 99621160
+    SectionId: 24283221
+    Key: item.title.redkeycard
+    Value: "\u041A\u0440\u0430\u0441\u043D\u0430\u044F \u043A\u043B\u044E\u0447-\u043A\u0430\u0440\u0442\u0430"
+  - EntryId: 97596299
+    SectionId: 24283221
+    Key: item.description.redkeycard
+    Value: "\u041A\u0430\u0440\u0442\u0430 \u0434\u043E\u0441\u0442\u0443\u043F\u0430
+      \u0432\u044B\u0441\u043E\u043A\u043E\u0439 \u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u043E\u0441\u0442\u0438"
+  - EntryId: 88852542
+    SectionId: 24283221
+    Key: item.title.greenkeycard
+    Value: "\u0417\u0435\u043B\u0451\u043D\u0430\u044F \u043A\u043B\u044E\u0447-\u043A\u0430\u0440\u0442\u0430"
+  - EntryId: 84344411
+    SectionId: 24283221
+    Key: item.description.greenkeycard
+    Value: "\u041A\u0430\u0440\u0442\u0430 \u0434\u043E\u0441\u0442\u0443\u043F\u0430"
+  - EntryId: 44840908
+    SectionId: 24283221
+    Key: item.title.fuelcanister
+    Value: "\u041A\u0430\u043D\u0438\u0441\u0442\u0440\u0430 \u0441 \u0442\u043E\u043F\u043B\u0438\u0432\u043E\u043C"
+  - EntryId: 90153658
+    SectionId: 24283221
+    Key: item.description.fuelcanister
+    Value: "\u041F\u0440\u043E\u0447\u043D\u0430\u044F \u043C\u0435\u0442\u0430\u043B\u043B\u0438\u0447\u0435\u0441\u043A\u0430\u044F
+      \u043A\u0430\u043D\u0438\u0441\u0442\u0440\u0430, \u043D\u0430\u043F\u043E\u043B\u043D\u0435\u043D\u043D\u0430\u044F
+      \u0432\u044B\u0441\u043E\u043A\u043E\u044D\u0444\u0444\u0435\u043A\u0442\u0438\u0432\u043D\u044B\u043C
+      \u0436\u0438\u0434\u043A\u0438\u043C \u0442\u043E\u043F\u043B\u0438\u0432\u043E\u043C,
+      \u0441\u043F\u0435\u0446\u0438\u0430\u043B\u044C\u043D\u043E \u043F\u0440\u0435\u0434\u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044B\u043C
+      \u0434\u043B\u044F \u0437\u0430\u043F\u0440\u0430\u0432\u043A\u0438 \u044D\u043B\u0435\u043A\u0442\u0440\u043E\u0433\u0435\u043D\u0435\u0440\u0430\u0442\u043E\u0440\u043E\u0432.\r\n\u041B\u0438\u0442\u0440\u043E\u0432
+      \u0442\u043E\u043F\u043B\u0438\u0432\u0430: {fuel_litres}"
+  - EntryId: 15052282
+    SectionId: 24283221
+    Key: item.title.marbleball
+    Value: "\u041C\u0440\u0430\u043C\u043E\u0440\u043D\u044B\u0439 \u0448\u0430\u0440\u0438\u043A"
+  - EntryId: 83898129
+    SectionId: 24283221
+    Key: item.description.marbleball
+    Value: "\u041D\u0435\u0431\u043E\u043B\u044C\u0448\u043E\u0439 \u0446\u0432\u0435\u0442\u043D\u043E\u0439
+      \u0441\u0442\u0435\u043A\u043B\u044F\u043D\u043D\u044B\u0439 \u0448\u0430\u0440\u0438\u043A,
+      \u0447\u0430\u0441\u0442\u043E \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u043C\u044B\u0439
+      \u0432 \u0438\u0433\u0440\u0430\u0445. \u041C\u043E\u0436\u043D\u043E \u0431\u0440\u043E\u0441\u0430\u0442\u044C
+      \u0438\u043B\u0438 \u043A\u0430\u0442\u0430\u0442\u044C \u0434\u043B\u044F
+      \u0440\u0435\u0448\u0435\u043D\u0438\u044F \u0433\u043E\u043B\u043E\u0432\u043E\u043B\u043E\u043C\u043E\u043A
+      \u0438 \u0430\u043A\u0442\u0438\u0432\u0430\u0446\u0438\u0438 \u043C\u0435\u0445\u0430\u043D\u0438\u0437\u043C\u043E\u0432."
+  - EntryId: 82617294
+    SectionId: 24283221
+    Key: item.title.gunpowder
+    Value: "\u041F\u043E\u0440\u043E\u0445"
+  - EntryId: 94969246
+    SectionId: 24283221
+    Key: item.description.gunpowder
+    Value: "\u0412\u0437\u0440\u044B\u0432\u0447\u0430\u0442\u044B\u0439 \u0447\u0451\u0440\u043D\u044B\u0439
+      \u043F\u043E\u0440\u043E\u0445"
+  - EntryId: 45238631
+    SectionId: 24283221
+    Key: item.title.scrap
+    Value: "\u041C\u0435\u0442\u0430\u043B\u043B\u043E\u043B\u043E\u043C"
+  - EntryId: 38802640
+    SectionId: 24283221
+    Key: item.description.scrap
+    Value: "\u041D\u0430\u0431\u043E\u0440 \u0440\u0430\u0437\u043D\u043E\u043E\u0431\u0440\u0430\u0437\u043D\u044B\u0445
+      \u043C\u0435\u0442\u0430\u043B\u043B\u0438\u0447\u0435\u0441\u043A\u0438\u0445
+      \u0434\u0435\u0442\u0430\u043B\u0435\u0439. \u041F\u043E\u043B\u0435\u0437\u0435\u043D
+      \u0434\u043B\u044F \u043A\u0440\u0430\u0444\u0442\u0430 \u0438 \u0440\u0435\u043C\u043E\u043D\u0442\u0430."
+  - EntryId: 31030455
+    SectionId: 90694169
+    Key: tips.tip1
+    Value: "\u042D\u0442\u043E \u043F\u0435\u0440\u0432\u044B\u0439 \u043F\u0440\u0438\u043C\u0435\u0440
+      \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0438."
+  - EntryId: 69403660
+    SectionId: 90694169
+    Key: tips.tip2
+    Value: "\u042D\u0442\u043E \u0432\u0442\u043E\u0440\u043E\u0439 \u043F\u0440\u0438\u043C\u0435\u0440
+      \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0438."
+  - EntryId: 75937617
+    SectionId: 90694169
+    Key: tips.tip3
+    Value: "\u042D\u0442\u043E \u0442\u0440\u0435\u0442\u0438\u0439 \u043F\u0440\u0438\u043C\u0435\u0440
+      \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0438."
+  - EntryId: 35326416
+    SectionId: 70584943
+    Key: options.language
+    Value: "\u042F\u0437\u044B\u043A"
+  - EntryId: 36164037
+    SectionId: 70584943
+    Key: options.brightness
+    Value: "\u042F\u0440\u043A\u043E\u0441\u0442\u044C"
+  - EntryId: 12736807
+    SectionId: 70584943
+    Key: options.camera.fov
+    Value: "\u041F\u043E\u043B\u0435 \u043E\u0431\u0437\u043E\u0440\u0430 \u043A\u0430\u043C\u0435\u0440\u044B"
+  - EntryId: 39446919
+    SectionId: 70584943
+    Key: options.look.sensitivity
+    Value: "\u0427\u0443\u0432\u0441\u0442\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u044C
+      \u0432\u0437\u0433\u043B\u044F\u0434\u0430"
+  - EntryId: 93278971
+    SectionId: 70584943
+    Key: options.look.smoothing
+    Value: "\u0421\u0433\u043B\u0430\u0436\u0438\u0432\u0430\u043D\u0438\u0435 \u0432\u0437\u0433\u043B\u044F\u0434\u0430"
+  - EntryId: 44422523
+    SectionId: 70584943
+    Key: options.smoothing.speed
+    Value: "\u0421\u043A\u043E\u0440\u043E\u0441\u0442\u044C \u0441\u0433\u043B\u0430\u0436\u0438\u0432\u0430\u043D\u0438\u044F"
+  - EntryId: 42806252
+    SectionId: 70584943
+    Key: options.show.fps
+    Value: "\u041F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0442\u044C FPS"
+  - EntryId: 16191567
+    SectionId: 70584943
+    Key: options.display
+    Value: "\u0414\u0438\u0441\u043F\u043B\u0435\u0439"
+  - EntryId: 72339037
+    SectionId: 70584943
+    Key: options.display.mode
+    Value: "\u0420\u0435\u0436\u0438\u043C \u043E\u0442\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F"
+  - EntryId: 32918443
+    SectionId: 70584943
+    Key: options.screen.res
+    Value: "\u0420\u0430\u0437\u0440\u0435\u0448\u0435\u043D\u0438\u0435 \u044D\u043A\u0440\u0430\u043D\u0430"
+  - EntryId: 10092527
+    SectionId: 70584943
+    Key: options.frame.rate
+    Value: "\u0427\u0430\u0441\u0442\u043E\u0442\u0430 \u043A\u0430\u0434\u0440\u043E\u0432"
+  - EntryId: 67230680
+    SectionId: 70584943
+    Key: options.vsync
+    Value: "\u0412\u0435\u0440\u0442\u0438\u043A\u0430\u043B\u044C\u043D\u0430\u044F
+      \u0441\u0438\u043D\u0445\u0440\u043E\u043D\u0438\u0437\u0430\u0446\u0438\u044F"
+  - EntryId: 34415215
+    SectionId: 70584943
+    Key: options.render.scale
+    Value: "\u041C\u0430\u0441\u0448\u0442\u0430\u0431 \u0440\u0435\u043D\u0434\u0435\u0440\u0430"
+  - EntryId: 26280178
+    SectionId: 70584943
+    Key: options.fsr
+    Value: "\u0420\u0435\u0437\u043A\u043E\u0441\u0442\u044C FSR"
+  - EntryId: 82063294
+    SectionId: 70584943
+    Key: options.antialiasing
+    Value: "\u0421\u0433\u043B\u0430\u0436\u0438\u0432\u0430\u043D\u0438\u0435"
+  - EntryId: 27231692
+    SectionId: 70584943
+    Key: options.antialiasing.quality
+    Value: "\u041A\u0430\u0447\u0435\u0441\u0442\u0432\u043E \u0441\u0433\u043B\u0430\u0436\u0438\u0432\u0430\u043D\u0438\u044F"
+  - EntryId: 63942947
+    SectionId: 70584943
+    Key: options.anisotropic
+    Value: "\u0410\u043D\u0438\u0437\u043E\u0442\u0440\u043E\u043F\u043D\u0430\u044F
+      \u0444\u0438\u043B\u044C\u0442\u0440\u0430\u0446\u0438\u044F"
+  - EntryId: 33876895
+    SectionId: 70584943
+    Key: options.texture.quality
+    Value: "\u041A\u0430\u0447\u0435\u0441\u0442\u0432\u043E \u0442\u0435\u043A\u0441\u0442\u0443\u0440"
+  - EntryId: 24740572
+    SectionId: 70584943
+    Key: options.shadow.distance
+    Value: "\u0414\u0438\u0441\u0442\u0430\u043D\u0446\u0438\u044F \u0442\u0435\u043D\u0435\u0439"
+  - EntryId: 78091521
+    SectionId: 70584943
+    Key: options.bloom
+    Value: "\u0421\u0432\u0435\u0447\u0435\u043D\u0438\u0435"
+  - EntryId: 51192724
+    SectionId: 70584943
+    Key: options.vignette
+    Value: "\u0412\u0438\u043D\u044C\u0435\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435"
+  - EntryId: 26771590
+    SectionId: 70584943
+    Key: options.film.grain
+    Value: "\u0417\u0435\u0440\u043D\u0438\u0441\u0442\u043E\u0441\u0442\u044C \u043F\u043B\u0451\u043D\u043A\u0438"
+  - EntryId: 58595067
+    SectionId: 70584943
+    Key: options.chromatic
+    Value: "\u0425\u0440\u043E\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435
+      \u0430\u0431\u0435\u0440\u0440\u0430\u0446\u0438\u0438"
+  - EntryId: 16363080
+    SectionId: 70584943
+    Key: options.audio.general
+    Value: "\u041E\u0431\u0449\u0430\u044F \u0433\u0440\u043E\u043C\u043A\u043E\u0441\u0442\u044C"
+  - EntryId: 15022705
+    SectionId: 70584943
+    Key: options.audio.music
+    Value: "\u0413\u0440\u043E\u043C\u043A\u043E\u0441\u0442\u044C \u043C\u0443\u0437\u044B\u043A\u0438"
+  - EntryId: 75698164
+    SectionId: 70584943
+    Key: options.separator.video
+    Value: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438 \u0432\u0438\u0434\u0435\u043E"
+  - EntryId: 62116141
+    SectionId: 70584943
+    Key: options.separator.pp
+    Value: "\u041F\u043E\u0441\u0442\u043E\u0431\u0440\u0430\u0431\u043E\u0442\u043A\u0430"
+  - EntryId: 99640487
+    SectionId: 16042704
+    Key: objectives.fuses
+    Value: "\u041D\u0430\u0439\u0442\u0438 \u043F\u0440\u0435\u0434\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u0435\u043B\u0438
+      [count]/3"
+  - EntryId: 95754042
+    SectionId: 16042704
+    Key: objectives.fuse.title
+    Value: "\u041F\u0440\u0435\u0434\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u0435\u043B\u044C"
+  - EntryId: 69253915
+    SectionId: 16042704
+    Key: objectives.fuse.instal
+    Value: "\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0435 \u043F\u0440\u0435\u0434\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u0435\u043B\u0438"
+  - EntryId: 20622106
+    SectionId: 16042704
+    Key: objectives.trailer.title
+    Value: "\u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u0442\u0440\u0435\u0439\u043B\u0435\u0440"
+  - EntryId: 81694442
+    SectionId: 16042704
+    Key: objectives.trailer.text
+    Value: "\u041D\u0443\u0436\u043D\u043E \u043F\u043E\u043F\u0430\u0441\u0442\u044C
+      \u0432 \u0442\u0440\u0435\u0439\u043B\u0435\u0440 \u0441\u043E \u0441\u043B\u0435\u0434\u0430\u043C\u0438
+      \u043A\u0440\u043E\u0432\u0438 \u0438 \u043E\u0431\u044B\u0441\u043A\u0430\u0442\u044C
+      \u0435\u0433\u043E"
+  - EntryId: 15334209
+    SectionId: 16042704
+    Key: objectives.leave.title
+    Value: "\u041F\u043E\u043A\u0438\u043D\u0443\u0442\u044C \u043C\u0435\u0441\u0442\u043E"
+  - EntryId: 82125771
+    SectionId: 16042704
+    Key: objectives.leave.text
+    Value: "\u041D\u0443\u0436\u043D\u043E \u0443\u0435\u0437\u0436\u0430\u0442\u044C
+      \u043E\u0442 \u0441\u044E\u0434\u0430 \u043D\u0430 \u043C\u0430\u0448\u0438\u043D\u0435"
+  - EntryId: 41758565
+    SectionId: 80215149
+    Key: dialogue.leave
+    Value: "\u0417\u0434\u0435\u0441\u044C \u0431\u043E\u043B\u044C\u0448\u0435 \u043D\u0435
+      \u043D\u0430 \u0447\u0442\u043E \u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C."
+  - EntryId: 46291561
+    SectionId: 80215149
+    Key: dialogue.end.kill
+    Value: "\u042F \u0437\u043D\u0430\u043B, \u043A\u0442\u043E \u043E\u043D, \u0435\u0449\u0451
+      \u0434\u043E \u0442\u043E\u0433\u043E \u043A\u0430\u043A \u043F\u0440\u0438\u0435\u0445\u0430\u043B
+      \u0441\u044E\u0434\u0430. \u041F\u043E\u043B\u0438\u0446\u0438\u044F \u0437\u0430\u043A\u0440\u044B\u043B\u0430
+      \u0434\u0435\u043B\u043E - \u043D\u0435\u0434\u043E\u0441\u0442\u0430\u0442\u043E\u0447\u043D\u043E
+      \u0434\u043E\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u044C\u0441\u0442\u0432."
+  - EntryId: 98804388
+    SectionId: 80215149
+    Key: dialogue.end.kill.2
+    Value: "\u041C\u043D\u0435 \u0445\u0432\u0430\u0442\u0438\u043B\u043E \u0442\u043E\u0433\u043E,
+      \u0447\u0442\u043E \u044F \u0443\u0432\u0438\u0434\u0435\u043B. \u0421\u0435\u0433\u043E\u0434\u043D\u044F
+      \u0437\u0434\u0435\u0441\u044C \u0441\u0442\u0430\u043B\u043E \u043D\u0430
+      \u043E\u0434\u043D\u043E\u0433\u043E \u043C\u043E\u043D\u0441\u0442\u0440\u0430
+      \u043C\u0435\u043D\u044C\u0448\u0435."
+  - EntryId: 57385853
+    SectionId: 80215149
+    Key: dialogue.run
+    Value: "\u0421\u0435\u0433\u043E\u0434\u043D\u044F \u043D\u0438\u0447\u0435\u0433\u043E
+      \u043D\u0435 \u0438\u0437\u043C\u0435\u043D\u0438\u043B\u043E\u0441\u044C."
+  - EntryId: 29490742
+    SectionId: 80215149
+    Key: dialogue.end.true
+    Value: "\u0418\u0441\u0442\u0438\u043D\u043D\u0430\u044F \u043A\u043E\u043D\u0446\u043E\u0432\u043A\u0430"
+  - EntryId: 23808226
+    SectionId: 80215149
+    Key: dialogue.end.false
+    Value: "\u041E\u0431\u044B\u0447\u043D\u0430\u044F \u043A\u043E\u043D\u0446\u043E\u0432\u043A\u0430"
+  - EntryId: 85105143
+    SectionId: 80215149
+    Key: dialogue.door
+    Value: "\u0414\u0432\u0435\u0440\u044C \u0437\u0430\u043A\u0440\u044B\u0442\u0430,
+      \u043D\u0443\u0436\u043D\u043E \u043D\u0430\u0439\u0442\u0438 \u0441\u043F\u043E\u0441\u043E\u0431
+      \u0435\u0435 \u043E\u0442\u043A\u0440\u044B\u0442\u044C."
+  - EntryId: 60417154
+    SectionId: 29413555
+    Key: profile.rus.lang
+    Value: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+  - EntryId: 18766223
+    SectionId: 29413555
+    Key: profile.eng.lang
+    Value: "\u0410\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u0438\u0439"
+  - EntryId: 53920545
+    SectionId: 29413555
+    Key: profile.off
+    Value: "\u0412\u044B\u043A\u043B"
+  - EntryId: 98158776
+    SectionId: 29413555
+    Key: profile.on
+    Value: "\u0412\u043A\u043B"
+  - EntryId: 79842871
+    SectionId: 29413555
+    Key: profile.variable
+    Value: "\u041F\u0435\u0440\u0435\u043C\u0435\u043D\u043D\u0430\u044F"
+  - EntryId: 38251227
+    SectionId: 29413555
+    Key: profile.windowed
+    Value: "\u041E\u043A\u043E\u043D\u043D\u044B\u0439 \u0440\u0435\u0436\u0438\u043C"
+  - EntryId: 59782792
+    SectionId: 29413555
+    Key: profile.borderless.window
+    Value: "\u041E\u043A\u043D\u043E \u0431\u0435\u0437 \u0440\u0430\u043C\u043E\u043A"
+  - EntryId: 65608941
+    SectionId: 29413555
+    Key: profile.low
+    Value: "\u041D\u0438\u0437\u043A\u043E\u0435"
+  - EntryId: 14938139
+    SectionId: 29413555
+    Key: profile.medium
+    Value: "\u0421\u0440\u0435\u0434\u043D\u0435\u0435"
+  - EntryId: 69154875
+    SectionId: 29413555
+    Key: profile.high
+    Value: "\u0412\u044B\u0441\u043E\u043A\u043E\u0435"
+  - EntryId: 87099843
+    SectionId: 29413555
+    Key: profile.enable
+    Value: "\u0412\u043A\u043B\u044E\u0447\u0435\u043D\u043E"
+  - EntryId: 58967441
+    SectionId: 29413555
+    Key: profile.force.enable
+    Value: "\u041F\u0440\u0438\u043D\u0443\u0434\u0438\u0442\u0435\u043B\u044C\u043D\u043E
+      \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u043E"
+  - EntryId: 88739040
+    SectionId: 29413555
+    Key: profile.max
+    Value: "\u041C\u0430\u043A\u0441\u0438\u043C\u0430\u043B\u044C\u043D\u043E\u0435"
+  - EntryId: 21928861
+    SectionId: 29413555
+    Key: profile.very.high
+    Value: "\u041E\u0447\u0435\u043D\u044C \u0432\u044B\u0441\u043E\u043A\u043E\u0435"
+  - EntryId: 40296083
+    SectionId: 29413555
+    Key: profile.very.low
+    Value: "\u041E\u0447\u0435\u043D\u044C \u043D\u0438\u0437\u043A\u043E\u0435"

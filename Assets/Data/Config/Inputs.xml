@@ -1,0 +1,88 @@
+<InputBinding>
+  <Map>
+    <Action Name="input.action.movement">
+      <Binding Index="1" Path="&lt;Keyboard&gt;/w" />
+      <Binding Index="2" Path="&lt;Keyboard&gt;/s" />
+      <Binding Index="3" Path="&lt;Keyboard&gt;/a" />
+      <Binding Index="4" Path="&lt;Keyboard&gt;/d" />
+    </Action>
+    <Action Name="input.action.sprint">
+      <Binding Index="0" Path="&lt;Keyboard&gt;/leftShift" />
+    </Action>
+    <Action Name="input.action.jump">
+      <Binding Index="0" Path="&lt;Keyboard&gt;/space" />
+    </Action>
+    <Action Name="input.action.crouch">
+      <Binding Index="0" Path="&lt;Keyboard&gt;/leftCtrl" />
+    </Action>
+    <Action Name="input.action.use">
+      <Binding Index="0" Path="&lt;Keyboard&gt;/e" />
+    </Action>
+    <Action Name="input.action.examine">
+      <Binding Index="0" Path="&lt;Keyboard&gt;/q" />
+    </Action>
+    <Action Name="input.action.fire">
+      <Binding Index="0" Path="&lt;Mouse&gt;/leftButton" />
+    </Action>
+    <Action Name="input.action.reload">
+      <Binding Index="0" Path="&lt;Keyboard&gt;/r" />
+    </Action>
+    <Action Name="input.action.ads">
+      <Binding Index="0" Path="&lt;Mouse&gt;/rightButton" />
+    </Action>
+    <Action Name="input.action.equip1">
+      <Binding Index="0" Path="&lt;Keyboard&gt;/1" />
+    </Action>
+    <Action Name="input.action.equip2">
+      <Binding Index="0" Path="&lt;Keyboard&gt;/2" />
+    </Action>
+    <Action Name="input.action.equip3">
+      <Binding Index="0" Path="&lt;Keyboard&gt;/3" />
+    </Action>
+    <Action Name="input.action.equip4">
+      <Binding Index="0" Path="&lt;Keyboard&gt;/4" />
+    </Action>
+    <Action Name="input.action.unequip">
+      <Binding Index="0" Path="&lt;Keyboard&gt;/backquote" />
+    </Action>
+    <Action Name="input.action.look*">
+      <Binding Index="0" Path="&lt;Mouse&gt;/delta" />
+    </Action>
+    <Action Name="input.action.lean">
+      <Binding Index="1" Path="&lt;Keyboard&gt;/z" />
+      <Binding Index="2" Path="&lt;Keyboard&gt;/x" />
+    </Action>
+    <Action Name="input.action.flashlight">
+      <Binding Index="0" Path="&lt;Keyboard&gt;/f" />
+    </Action>
+  </Map>
+  <Map>
+    <Action Name="input.action.pause">
+      <Binding Index="0" Path="&lt;Keyboard&gt;/escape" />
+    </Action>
+    <Action Name="input.action.inventory">
+      <Binding Index="0" Path="&lt;Keyboard&gt;/tab" />
+    </Action>
+    <Action Name="input.action.map">
+      <Binding Index="0" Path="&lt;Keyboard&gt;/m" />
+    </Action>
+    <Action Name="input.action.inventory.rotate">
+      <Binding Index="0" Path="&lt;Keyboard&gt;/leftShift" />
+    </Action>
+    <Action Name="input.action.inventory.move">
+      <Binding Index="0" Path="&lt;Keyboard&gt;/space" />
+    </Action>
+    <Action Name="input.action.inventory.select">
+      <Binding Index="0" Path="&lt;Mouse&gt;/leftButton" />
+    </Action>
+    <Action Name="input.action.cursor">
+      <Binding Index="0" Path="&lt;Mouse&gt;/rightButton" />
+    </Action>
+    <Action Name="input.action.arrows">
+      <Binding Index="1" Path="&lt;Keyboard&gt;/upArrow" />
+      <Binding Index="2" Path="&lt;Keyboard&gt;/downArrow" />
+      <Binding Index="3" Path="&lt;Keyboard&gt;/leftArrow" />
+      <Binding Index="4" Path="&lt;Keyboard&gt;/rightArrow" />
+    </Action>
+  </Map>
+</InputBinding>
